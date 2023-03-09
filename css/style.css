@@ -1,0 +1,141 @@
+:root{
+    --hue: hsl(0,50%,75%);
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    background-color: var(--hue);
+    margin: 0;
+}
+
+.item{
+    position: relative;
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    user-select: none;
+    background-color: var(--hue);
+    width: calc(90% - 20px);
+    max-width: 800px;
+    padding: 20px 0 0 0;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: -5px -5px 8px rgba(255,255,255,0.5),
+        5px 5px 8px rgba(0,0,0,0.5);
+}
+.title{
+    font-size: 30px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.title ion-icon{
+    vertical-align: middle;
+}
+
+.desc{
+    max-height: 0;
+    padding: 0 20px 20px 20px;
+    opacity: 0;
+    overflow: hidden;
+    
+    transition: all 0.5s;
+}
+
+.expanded{
+    opacity: 1;
+    max-height: 300px;
+    
+}
+
+.desc-text{
+    padding: 10px 0 10px 0;
+}
+
+.more-arrow{
+    width: 60px;
+    height: auto;
+    background: url(../img/arrow.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    transition: 0.1s transform;
+}
+.rotated{
+    transform: rotate(180deg);
+}
+
+.btn-wrapper{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.btn-wrapper ion-icon{
+    font-size: 20px;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    display: block;
+    padding: 10px 30px 10px 30px;
+    background: #47a847;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: -2px -2px 4px rgba(255,255,255,0.5),
+        2px 2px 4px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+a:hover{
+    box-shadow: -2px -2px 8px rgba(255,255,255,0.5),
+        2px 2px 8px rgba(0,0,0,0.5);
+    transform:scale(1.05);
+}
+a:active{
+    box-shadow: inset -2px -2px 8px rgba(255,255,255,0.5),
+        inset 2px 2px 8px rgba(0,0,0,0.5);
+    transform:scale(1.05);
+}
+
+
+.container {
+    width: 100%;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+
+
+.floaty{
+    position: fixed;
+    width: 90%;
+    height: 35vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14vw;
+    font-weight: 700;
+    color: rgba(0,0,0,0.5)
+}
+
+
+.time{
+    bottom: -5vh;
+    opacity: 0;
+}
+
+@media (max-width: 800px){
+    .container{
+        display: block;
+    }
+    .item{
+        width: calc(90% - 20px);
+    }
+}

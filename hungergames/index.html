@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*realistic* HG Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <div id="setup">
+        <h1>
+            <span id="title"></span>
+            <form action="index.html">
+                <select onchange="this.parentNode.submit()" name="lang" id="lang-select">
+                    <option value="en">EN</option>
+                    <option value="ca">CA</option>
+                </select>
+            </form>
+        </h1>
+        <span id="tribute-number"></span><input type="number" id="player-count" value="24" placeholder="24" min="2" oninput="setPlayerCount(this.value)">
+        <p id="instructions"></p>
+        <form action="javascript:void(0)" onsubmit="return setPlayers(this)">
+            <div id="input-wrapper"></div>
+            <input type="checkbox" required> <span id="age-warning">I am 13 or older.</span><br>
+            <button id="start-btn" type="submit">Start the Games</button>
+        </form>
+    </div>
+    
+    <div id="game" style="display: none;">
+        <h1 id="day">Day 1</h1>
+        <div id="log-container"></div>
+        <button id="next-btn" onclick="advanceDay(this)">NEXT DAY</button>
+    </div>
+
+    <div id="post-game" style="display: none;">
+        <div id="winner-text">WINNER</div>
+        <div id="winner-name">Player 1</div>
+        <div id="winner-stats"></div>
+        <button id="restart-btn" onclick="window.location.reload()">New Game</button>
+    </div>
+
+    <script src="./js/stringManager.js"></script>
+    <script src="./js/playerClass.js"></script>
+    <script src="./js/logic.js"></script>
+</body>
+</html>

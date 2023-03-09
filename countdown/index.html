@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comptador Regressiu</title>
+    <link rel="stylesheet" href="estilitzacio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="avia-dels-ous">
+        <p class="capçalera">Introdueix un instant temporal del futur per a mostrar un comptador amb el temps restant, o bé un de passat per a saber quant de temps ha transcorregut:</p>
+
+        <form action="javascript:void(0)" onsubmit="createCountdown(this)">
+            <input id="date" type="date" placeholder="DATA" required>
+            <br>
+            <input id="time" type="time" value="00:00" required> 
+            <br>
+            <button type="submit" id="submit-btn">COMENÇA</button>
+        </form>
+    </div>
+    
+    <div class="mare-dels-ous" style="display:none">
+        <p id="verb"></p> <br>
+        <div class="count-container">
+            <div id="days">
+                <span class="gran-numero"></span>
+                <br> 
+                <span class="sub-tag"></span>
+            </div>
+            <div id="hours">
+                <span class="gran-numero"></span>
+                <br>
+                <span class="sub-tag"></span>
+            </div>
+            <div id="minutes">
+                <span class="gran-numero"></span>
+                <br>
+                <span class="sub-tag"></span>
+            </div>
+            <div id="seconds">
+                <span class="gran-numero"></span>
+                <br>
+                <span class="sub-tag"></span>
+            </div>
+        </div>
+        <button id="restart-btn" onclick="window.location.reload()">Nou compte enrere</button>
+    </div> 
+    
+    <script src="guio.js"></script>
+</body>
+</html>

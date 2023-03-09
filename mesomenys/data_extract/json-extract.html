@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSONator</title>
+</head>
+<body onload="loadJSON()">
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script>
+        var munDatabase = [];
+
+        function loadJSON() {
+            for(let i = 0; i < 950; i+=50){
+                fetch('https://api.idescat.cat/pob/v1/cerca.json?p=tipus/mun;posicio/' + i)
+                    .then(response => response.json())
+                    .then(data => {
+                        data.feed.entry.forEach(entry => {
+                            munDatabase.push([fixCommaSeparatedName(entry.title), entry['cross:DataSet']['cross:Section']['AREA'], entry['cross:DataSet']['cross:Section']['cross:Obs'][2]['OBS_VALUE'],moment(entry['cross:DataSet']['cross:Section']['TIME_PERIOD']).format('DD-MM-YYYY')]);
+                            if(munDatabase.length >= 947) {
+                                loadComarca();
+                            }
+                        });
+                    })
+                
+            }
+        }
+
+        // .replace(/\B(?=(\d{3})+(?!\d))/g,".") To add dot every 3 digits
+
+        var progressCount = 0;
+        function loadComarca() {
+            munDatabase.forEach(o => {
+                fetch('https://analisi.transparenciacatalunya.cat/resource/9aju-tpwc.json?codi=' + o[1])
+                    .then(res => res.json())
+                    .then(data => {
+                        o[1] = data[0].nom_comarca;
+                        o.push(data[0].latitud, data[0].longitud);
+                        progressCount++;
+                        if(progressCount >= munDatabase.length){
+                            createComarcaObject();
+                        }
+                    })
+            })
+        }
+
+        function createComarcaObject() {
+            var object = {};
+            var comarques = ["Alt Camp","Alt Empordà","Alt Penedès","Alt Urgell","Alta Ribagorça","Anoia","Bages","Baix Camp","Baix Ebre","Baix Empordà","Baix Llobregat","Baix Penedès","Barcelonès","Berguedà","Cerdanya","Conca de Barberà","Garraf","Garrigues","Garrotxa","Gironès","Maresme","Montsià","Noguera","Osona","Pallars Jussà","Pallars Sobirà","Pla d'Urgell","Pla de l'Estany","Priorat","Ribera d'Ebre","Ripollès","Segarra","Segrià","Selva","Solsonès","Tarragonès","Terra Alta","Urgell","Aran","Vallès Occidental","Vallès Oriental","Moianès"];
+               
+            comarques.forEach(c => {
+                object[c] = [];
+                munDatabase.forEach(m => {
+                    if(m[1] == c){
+                        object[c].push(m);
+                    }
+                })
+            })
+            document.body.innerHTML = JSON.stringify(object);
+        }
+
+        // UTILS
+
+        function fixCommaSeparatedName(name){
+            if(name.includes(',')){
+                let nameArr = name.split(',');
+                return `${nameArr[1].charAt(1).toUpperCase() + nameArr[1].slice(2)} ${nameArr[0]}`;
+            } else {
+                return name;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chwazi</title>
+</head>
+<body>
+    <div class="setup-area">
+        <div id="minus-arrow" onclick="setNumber(-1)"><ion-icon name="chevron-back-outline"></ion-icon></div>
+        <div id="label">1</div>
+        <div id="plus-arrow" onclick="setNumber(1)"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+    </div>
+    <div class="touch-area" ontouchstart="startTouch(event)" ontouchmove="moveTouch(event)" ontouchend="endTouch(event)" onclick="alert('bro aixo nomes va amb mobil')"></div>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mx: 0px;
+    --my: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.wrapper{
+    position: relative;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    filter: url(#gooey)
+}
+
+.circle{
+    position: relative;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.circle::before{
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.c1, .c1::before{
+    background: linear-gradient(90deg,#ff0000, #ffeb3b);
+}
+
+.c2, .c2::before{
+    background: linear-gradient(90deg,#00ffff, #ff3bef);
+}
+
+.c1{
+    left: var(--mx);
+    top: var(--my);
+    animation: girasion1 5s linear infinite;
+}
+
+.c2{
+    right: var(--mx);
+    bottom: var(--my);
+    animation: girasion2 5s linear infinite;
+}
+
+@keyframes girasion1{
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg);}
+}
+
+@keyframes girasion2{
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(-360deg);}
+}
+
+svg{
+    width: 0;
+    height: 0;
+}

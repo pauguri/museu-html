@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    overflow-y: hidden;
+}
+
+:root{
+    --lc: red;
+    --ticker: 0;
+    --ticker-time: 30s;
+}
+
+/* APP */
+.wrapper{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/1;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.cover{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.linia-bg{
+    height: 100%;
+    width: 20vw;
+    background-color: var(--lc);
+}
+
+.linia-container{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes ticker{
+    100%{ transform: translateY(var(--ticker)); }
+}
+
+.info{
+    position: relative;
+    height: 100%;
+    width: 60vw;
+    padding-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    animation: ticker var(--ticker-time) infinite linear;
+    animation-play-state: paused;
+}
+
+.desti-container{
+    width: 76%;
+    height: 10vw;
+    margin: 5vw 2% 5vw 2%;
+    text-align: right;
+}
+
+.estacio-container{
+    width: 72%;
+    height: 6vw;
+    margin: 7vw 4% 7vw 4%;
+    text-align: right;
+}
+
+.estacio-decor{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    right: 0;
+    transform: translateY(-100%);
+    background-color: var(--lc);
+}
+
+.desti, .estacio{
+    text-align: right;
+}
+
+.temps{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-left: 1vw solid var(--lc);
+}
+
+.min{
+    font-size: 3vw;
+}
+
+.num{
+    font-size: 15vw;
+    line-height: 90%;
+    overflow: hidden;
+}
+
+/* FORM */
+h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: black;
+    padding: 0 5% 0 5%;
+}
+
+.form-wrapper{
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.center{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+label{
+    color: black;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+select{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    font-family: inherit;
+    font-weight: inherit;
+    margin-top: 25px;
+    width: 50%;
+    max-width: 312px;
+    padding: 10px;
+    background-color: var(--lc);
+    color: white;
+    border: 2px solid var(--lc);
+    transition: all .2s;
+}
+
+input[type="submit"]:hover{
+    color: var(--lc);
+    background-color: white;
+    cursor: pointer;
+}

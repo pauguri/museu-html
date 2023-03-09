@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Magritte;
+    src: url(./assets/PreludeFLF.ttf);
+}
+
+body{
+    font-family: 'Magritte';
+    background: rgb(32, 22, 15);
+    display: flex;
+    justify-content: center;
+}
+
+/* BUTTONS */
+
+.btn{
+    border-radius: 50%;
+    color: white;
+    background: brown;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .2s;
+}
+
+#reload-btn, #save-btn, .load-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#reload-btn{
+    background: #f15f29;
+    box-shadow: 0 0 20px #f15f29;
+}
+#reload-btn:hover{
+    background: #b4431a;
+    box-shadow: 0 0 25px #b4431a;
+}
+@keyframes spin {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg);}
+}
+.spin{
+    animation: spin 1s;
+}
+
+#save-btn{
+    top: 100px;
+    background: darkolivegreen;
+}
+#save-btn:hover{
+    background: #3a4920;
+}
+
+.load-btn{
+    background: gray;
+    position: relative;
+}
+.load-btn .color-grid{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity .5s;
+}
+.load-btn .color-grid div{
+    width: 50%;
+    height: 33.33%;
+}
+.hidden{
+    opacity: 0 !important;
+}
+.load-btn .remove-save{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    pointer-events: none;
+    font-size: 15px;
+    padding-top: 2.3px;
+    background: red;
+    border-radius: 50%;
+    transition: all .2s;
+}
+.load-btn:hover .remove-save{
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    pointer-events: all;
+}
+.remove-save:hover{
+    opacity: 1 !important;
+    background: #741d1d;
+}
+
+.pin-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    opacity: 0;
+    top: 20px;
+    left: 20px;
+}
+.pin-btn:hover{
+    background: #741d1d;
+}
+
+.btn:hover{
+    cursor: pointer;   
+}
+
+/* CANVAS */
+
+#canvas{
+    width: 100vw;
+    max-width: calc(100vh / 3 * 2);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#sidebar-container{
+    width: 100px;
+    height: calc(100vh - 50px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+#sidebar-container::before{
+    content: "La Máquina Magritte";
+    position: absolute;
+    z-index: -5;
+    top: calc(50% + 100px);
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    color: rgb(46, 39, 32);
+    font-size: 50px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+}
+select{
+    position: absolute;
+    width: 50px;
+    bottom: 25px;
+    left: -45px;
+    transform: translate(-50%,50%);
+    background: transparent;
+    color: white;
+}
+option{
+    background: white;
+    color: black;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+#sidebar-separator{
+    width: 40px;
+    height: 1px;
+    background: gray;
+    margin: 10px 0 30px 0;
+}
+
+.cell{
+    width: 50%;
+    height: 33.33%;
+    /* font-weight: bold; */
+    font-size: 25px;
+    line-height: 40px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.cell:hover .pin-btn{
+    opacity: 1;
+}
+
+.cell-text{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    color: white;
+}

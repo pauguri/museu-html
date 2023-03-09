@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Penjadillu</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div id="form-wrapper">
+        <div id="form-bg"></div>
+        <div id="form-box">
+            <h1>AHORCADO</h1>
+            <h2>Elige uno o varios temas</h2>
+            <form action="javascript:void(0)" onsubmit="generatePassword(false)">
+                <input type="checkbox" id="animal"> Animales<br>
+                <input type="checkbox" id="ciudad"> Ciudades<br>
+                <input type="checkbox" id="friki"> Esta opción huele mal<br>
+                <input type="checkbox" id="hardcore"> <strong style="color: red;">¡HARDCORE!</strong> Palabra totalmente random<br>
+                <input type="submit" class="jugar-button" value="JUGAR">
+            </form>
+            <h2>o</h2>
+            <h2>2 Jugadores</h2>
+            <form action="javascript:void(0)" onsubmit="generatePassword(true)">
+                <input type="text" id="paswdInput" placeholder="Escribe la palabra secreta" required><br>
+                <input type="submit" class="jugar-button" value="JUGAR (2J)">
+            </form>
+        </div>
+    </div>
+    
+    <div id="game">
+        <div class="svg_wrapper" id="svg_wrapper">
+            <svg id="svgg" viewBox="0 0 82 82">
+                <path id="horca" fill="none" stroke-width="3" stroke="black" d="M 10 80 L 80 80 M 25 80 V 20 H 55 V 30 M 25 35 l 15 -15" />
+                <path class="body 1" id="leg1" fill="none" stroke-width="2" stroke="black" d="M 50 70 L 55 60"></path>
+                <path class="body 2" id="leg2" fill="none" stroke-width="2" stroke="black" d="M 60 70 L 55 60"></path>
+                <path class="body 3" id="body" fill="none" stroke-width="2" stroke="black" d="M 55 60 L 55 45"></path>
+                <path class="body 4" id="arm1" fill="none" stroke-width="2" stroke="black" d="M 55 50 L 50 55"></path>
+                <path class="body 5" id="arm2" fill="none" stroke-width="2" stroke="black" d=" M 55 50 L 60 55"></path>
+                <path class="body 6" id="head" fill="none" stroke-width="2" stroke="black"
+                    d=" M 55 30 A -5 -5 0 1 0 55 45 A -5 -5 0 0 0 55 30"></path>
+            </svg>
+            <div id="used-letters"></div>
+        </div>
+        <div class="input-area">
+            <div id="guessed-word"></div>
+            <form id="input-form" action="javascript:void(0)" onsubmit="checking()">
+                <input type="text" name="myword" class="m_word" id="m_word" placeholder="Letra" required>
+                <button type="submit" id="submit-button"><ion-icon name="checkmark-outline"></ion-icon></button>
+            </form>
+            <div class="try_counter" id="try_counter"></div>
+        </div>
+        
+        
+        
+    </div>
+
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

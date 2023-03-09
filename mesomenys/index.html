@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./img/favicon.jpg">
+    <title>Més o Menys...</title>
+</head>
+<body>
+    <div class="loading">Carregant...</div>
+
+    <div class="game-wrapper">
+        <div class="exit-btn" onclick="window.location.reload()"><i class="fas fa-chevron-left"></i> Sortir</div>
+        <div class="score"><span id="score-num"></span><span id="score-fraction"></span></div>
+        <div class="hs-container"><i class="fas fa-crown"></i><span class="hs"></span></div>
+        <div class="ref mun-box">
+            <div class="background"></div>
+            <h2 class="mun-title"></h2>
+            <div class="com-title"></div>
+            <div class="mun-count"></div>
+            <div class="mun-count-desc">habitants</div>
+            <div class="bottom-date">Dades del <span class="mun-date"></span>. <a href="https://www.idescat.cat/tema/xifpo" target="_blank">Font</a></div>
+            
+        </div>
+        <div class="next mun-box">
+            <div class="background"></div>
+            <h2 class="mun-title"></h2>
+            <div class="com-title"></div>
+            <div class="mun-count"></div>
+            <div class="mun-count-desc" style="display: none">habitants</div>
+            <div class="input-area">
+                té<br>
+                <button onclick="answer(true)"><i class="fas fa-chevron-up"></i> MÉS</button><br>
+                <button onclick="answer(false)"><i class="fas fa-chevron-down"></i> MENYS</button>
+                <br>habitants
+            </div>
+            <div class="bottom-date">Dades del <span class="mun-date"></span>. <a href="https://www.idescat.cat/tema/xifpo" target="_blank">Font</a></div>
+            
+        </div>
+    </div>
+    <div class="modal-backdrop visible"></div>
+    <div class="modal results-wrapper">
+        <div class="results-score">
+            Punts:<br><span class="r-score-text">0</span>
+        </div>
+        <div class="new-record"><i class="fas fa-crown"></i> Nou Rècord!</div>
+        <div class="results-hs">Puntuació màxima: <span class="r-hs-text">0</span></div>
+        <button onclick="startGame()"><i class="fas fa-redo-alt"></i> Torna a jugar</button>
+        <button onclick="window.location.reload()"><i class="fas fa-home"></i> Surt al menú</button>
+    </div>
+    <div class="modal start-wrapper visible">
+        <img id="logo" src="./img/logo.png" alt="logo" draggable="false">
+        <div>Posa a prova el teu coneixement dels municipis de Catalunya!<br>Té més habitants <span id="sm1" class="sample-mun"></span> o <span id="sm2" class="sample-mun"></span>?</div>
+        <div class="start-btns">
+            <div class="start-section">
+                <button onclick="handleStart(true)" disabled="disabled">JUGAR<br><span>Tot Catalunya</span></button>
+            </div>
+            <div class="separator"></div>
+            <form action="javascript:void(0)" class="start-section" onsubmit="return handleStart(false, this.elements[0].value)">
+                <select name="com-select" id="com-select" required disabled="disabled">
+                    <option value="0">Tria una comarca</option>
+                </select>
+                <button type="submit" id="com-select-submit" style="display:none">JUGAR<br><span>Tria una comarca</span></button>
+            </form>
+        </div>
+        <div class="hs-list-btn" onclick="expandHsList(this)"><i class="fas fa-crown"></i> <span>Els meus rècords</span></div>
+        <div class="hs-list collapsed">
+
+        </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+    <script nomodule>
+        alert("Ho sentim, aquest navegador no és compatible amb el joc. Recomanem utilitzar Google Chrome o Microsoft Edge.");
+    </script>
+</body>
+</html>

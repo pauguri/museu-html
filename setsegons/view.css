@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 15%, rgba(106,0,107,1) 100%);;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#view-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.view-total{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.view-total-name{
+    font-size: 80px;
+}
+
+.view-total-points{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.eliminated{
+    color: red;
+    opacity: 0.4;
+}

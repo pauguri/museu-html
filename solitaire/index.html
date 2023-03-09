@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitari (ma o meno)</title>
+</head>
+<body onload="init()">
+    <div class="top-bar">
+        <div id="draw-btn" class="card-sized" onclick="createCard(document.getElementById('drawn-container'),true,true)"></div>
+        <div id="drawn-container" class="card-sized"></div>
+        <div class="spacer card-sized"></div>
+        <div id="gh" class="goal-pile card-sized h" ondrop="dropGoal(event)" ondragover="allowDrop(event)"></div>
+        <div id="gd" class="goal-pile card-sized d" ondrop="dropGoal(event)" ondragover="allowDrop(event)"></div>
+        <div id="gc" class="goal-pile card-sized c" ondrop="dropGoal(event)" ondragover="allowDrop(event)"></div>
+        <div id="gs" class="goal-pile card-sized s" ondrop="dropGoal(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="board">
+        <div id="col1" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col2" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col3" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col4" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col5" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col6" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+        <div id="col7" class="board-column" ondrop="dropBoard(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!-- Pau Guri Viura - Practica 3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portal de Anuncios</title>
+</head>
+<body>
+    <?php include("header.php"); ?>
+
+    <h1>Portal de Anuncios</h1>
+
+    <?php
+        require_once("conexion_pdo.php");
+        $db = new Conexion();
+
+        # la consulta devuelve todos los datos necesarios de los anuncios no vendidos
+        # combina 3 tablas: P02anuncios, P02usuarios y P02categorias.
+        # se asigna un alias a las columnas repetidas ("id" de P02anuncios, "nombre" de P02usuarios, "nombre" de P02categorias) con el parámetro AS
+        $result = $db -> prepare("SELECT P02anuncios.id AS id, titulo, P02categorias.nombre AS categoria, P02usuarios.nombre AS usuario, precio FROM P02anuncios,P02categorias,P02usuarios WHERE categoria=P02categorias.id AND propietario=email AND vendido=0 ORDER BY fechahora DESC");
+        $result -> execute();
+        
+        # se hace fetch de todas las filas y se cuentan con count().
+        # para mostrar resultados, se tiene que recibir como mínimo 1 fila
+        $allRows = $result -> fetchAll();
+        if(count($allRows) < 1) {
+            echo "<h2>No se ha encontrado ningún anuncio no vendido.</h2>";
+        } else {
+            $result -> execute();
+
+            echo "<div class='postgrid'>";
+
+            foreach ($result as $post) {
+                echo "<article>
+                    <h2><a href='anuncio.php?id=$post[id]'>$post[titulo]</a></h2>
+                    <h2>$post[categoria]</h2>
+                    <h3>$post[usuario]</h3>
+                    <h3>$post[precio] €</h3>
+                </article>";
+            }
+            echo "</div>";
+        }
+
+        $db = NULL;
+
+        include("footer.php");
+    ?>
+</body>
+</html>

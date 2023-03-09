@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.setup-area{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#minus-arrow, #label, #plus-arrow{
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+    line-height: 0;
+}
+#label{
+    position: relative;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.touch-area{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: black;
+}
+
+@keyframes grow {
+    from {transform: translate(-50%, -50%) scale(0.5)}
+    to {transform: translate(-50%, -50%) scale(1)}
+}
+
+.target{
+    --col: black;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid var(--col);
+    transform: translate(-50%, -50%);
+    transition: transform .5s;
+}
+.target::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: var(--col);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: grow 2s linear;
+}

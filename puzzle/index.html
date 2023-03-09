@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle personalitzat uwu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        form{
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        i{
+            font-size: 100px;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        input,select{
+            margin-bottom: 10px;
+        }
+
+        input[type="text"]{
+            width: 100%;
+            padding: 5px;
+        }
+
+        input[type="submit"]{
+            width: 80%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="puzzle.html" method="GET">
+        <i class="fas fa-puzzle-piece"></i>
+        <input id="urlinput" type="text" name="imgp" placeholder="URL de la imatge (ha de ser quadrada)" required><br>
+        <p id="defimg" style="text-decoration: underline; margin-bottom: 20px; cursor: pointer;" onclick="document.getElementById('urlinput').value = 'queso.jpg'">omplir amb imatge de prova</p>
+        <label for="pNum">Número de peces</label>
+        <select name="n" id="pNum">
+            <option value="2">4</option>
+            <!-- coming soon
+            <option value="3">9</option>
+            <option value="4">16</option>
+             -->
+        </select><br>
+        <input type="submit" value="Generar">
+    </form>
+
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+</body>
+</html>

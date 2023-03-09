@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --tx: 0;
+    --ty: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.game{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2, p, #type-area{
+    pointer-events: none;
+    user-select: none;
+}
+
+#type-area{
+    margin: 20px 10% 0 10%;
+}
+
+.hi-score{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+}
+
+#type-input{
+    opacity: 0;
+}
+
+.c-char{
+    background-color: green;
+}
+.w-char{
+    background-color: red;
+}

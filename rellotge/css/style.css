@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-c: #312a5e;
+    --h1-c: #ffffff;
+    --h2-c: #ff0000;
+  }
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-c);
+}
+
+.reloj{
+    height: 400px;
+    width: 400px;
+    background-image: url('../img/clock.png');
+    border: 10px solid var(--bg-c);
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px rgb(255, 255, 255,0.2),
+        5px 5px 10px rgb(0, 0, 0,0.2),
+        inset -5px -5px 10px rgb(255, 255, 255,0.2),
+        inset 5px 5px 10px rgb(0, 0, 0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reloj:before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    z-index: 100;
+}
+
+.hora, .minuto, .segundo{
+    position: absolute;
+}
+
+.hora, .aguja_h{
+    width: 170px;
+    height: 170px;
+}
+
+.minuto, .aguja_m{
+    width: 220px;
+    height: 220px;
+}
+
+.segundo, .aguja_s{
+    width: 300px;
+    height: 300px;
+}
+
+.aguja_h, .aguja_m, .aguja_s{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.aguja_h:before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 85px;
+    background-color: var(--h2-c);
+    border-radius: 2.5px;
+}
+
+.aguja_m:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 110px;
+    background-color: var(--h1-c);
+}
+
+.aguja_s:before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 150px;
+    background-color: var(--h1-c);
+}
+
+.form{
+    margin-top: 50px;
+}

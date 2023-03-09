@@ -1,0 +1,66 @@
+body{
+    background-image: url("../img/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Limelight', cursive;
+}
+
+@keyframes easein{
+    from {top: -150px;}
+    to {top: 100px;}
+}
+
+@keyframes opacityin{
+    0% {opacity: 0%;}
+    75% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+h1{
+    position: absolute;
+    font-size: 100px;
+    color: rgb(248, 211, 0);
+    text-shadow: 5px 5px 10px rgb(206, 151, 0);
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: easein 3s;
+    user-select: none;
+}
+
+a{
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    opacity: 100%;
+    transition: 0.5s all;
+    animation: opacityin 4s linear;
+    user-select: none;
+}
+
+a:hover{
+    transform: translate(-2px, -2px);
+    text-shadow: 2px 2px 5px black;
+}
+
+.menu{
+    margin-top: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 630px){
+    h1{
+        font-size: 50px;
+    }
+
+    .menu{
+        margin-top: 250px;
+    }
+}

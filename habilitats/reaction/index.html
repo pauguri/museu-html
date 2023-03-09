@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body onload="waitForStart()">
+    <div class="hi-score">High Score: <span id="hs">0</span></div>
+    <div class="wrapper">
+        <div class="title" onclick="startGame()">
+            <h1>Reaction Time</h1>
+            <h2>Click when screen turns green</h2>
+            <p>Click to start</p>
+        </div>
+        <div class="game" onmousedown="registerClick()">
+            <h2 id="info-text">Click when green</h2>
+            <p id="too-soon"></p>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

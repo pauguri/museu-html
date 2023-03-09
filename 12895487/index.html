@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            background-color: white;
+        }
+        form{
+            text-align: center;
+        }
+
+        .hint{
+            color: white;
+            position: absolute;
+            bottom: 10vh;
+            text-align: center;
+            font-size: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        @keyframes opacityin {
+            0% { opacity: 1;}
+            100% { opacity: 0;}
+        }
+
+        .no{
+            position: absolute;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 90vh;
+            pointer-events: none;
+            user-select: none;
+        }
+
+    </style>
+</head>
+<body onload="generar()">
+    <form action="javascript:void(0)" onsubmit="return comprovar()">
+        <input id="in" type="text">
+        <input type="submit">
+    </form>
+    <div id="no" class="no">NO</div>
+    <div class="hint">A vegades, només cal INSPECCIONAR més atentament.</div>
+
+    <script src="https://citmalumnes.upc.es/~paugv2/forbidden_js/forbidden.js"></script>
+</body>
+</html>

@@ -1,0 +1,1618 @@
+[
+    {
+        "id": "01",
+        "title": "Primer cohete reutilizable",
+        "date": "2017.03.30",
+        "desc": "Tras muchos años de investigación y financiación, SpaceX lanzó su primer cohete espacial que aterriza en el mar y se pueden aprovechar todas las piezas, en su avance más grande a la fecha en búsqueda de reducir costos y agilizar los vuelos espaciales. Gracias a esta hazaña, la NASA firmó un acuerdo con Elon Musk que le ha llevado a donde está hoy, siendo una de las empresas mejor cotizadas del mercado incluyendo, también, Tesa con sus coches eléctricos.",
+        "category": "tech",
+        "imageExtension": "png"
+    },
+    {
+        "id": "02",
+        "title": "Rusia invade Ucrania",
+        "date": "2022.02.24",
+        "desc": "Después de años de conflictos, Vladimir Putin decide invadir Ucrania en un intento de que esta no pueda acceder a la OTAN. Desde el inicio de la invasión, muchos países han intentado frenar a Putin poniendo sanciones de escala mundial, entre ellas se encuentran la clausura de muchas marcas importantes (Apple, Nike, McDonald 's, etc), el cierre de fronteras para Rusia, así cómo la expulsión del banco SWIFT.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "03",
+        "title": "Primera ceremonia para otorgar un balón de oro femenino",
+        "date": "2018.12.03",
+        "desc": "La noruega Ada Hegerberg, delantera del Olympique de Lyon (Francia), fue la primera ganadora del Balón de Oro en la categoría femenina. Desde 1956 y hasta entonces, sólo había existido esta congratulación para la categoría masculina. Como subrayó la gran ganadora de este Balón de Oro, <i>“es algo histórico y un paso hacia delante para el fútbol femenino”</i>. En 2021 no se pudo celebrar debido a la pandemia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "04",
+        "title": "Asalto al Capitolio de los Estados Unidos",
+        "date": "2021.01.06",
+        "desc": "Donald Trump, en una de sus reyertas por no haber sido renombrado Presidente de los Estados Unidos, incitó a su masa de fans a que asaltaran el Capitolio donde se estaba contando el voto del colegio electoral que haría de Joe Biden el nuevo presidente. La incitación fué a través de su cuenta de Twitter, red que a raíz de ese mensaje anunció el baneo permanente de la cuenta Trump.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "05",
+        "title": "Brexit",
+        "date": "2020.02.01",
+        "desc": "Por una diferencia de tan solo un 1.9% (51.9% a 48.1%), Reino Unido ganó las elecciones del 23 de Junio del 2016 y anunció la separación del país en la Unión Europea. 3 años y 8 meses más tarde, se hizo oficial la salida. Durante este período, Reino Unido negoció una nueva relación comercial con Europa para favorecer ambos bandos. Los días posteriores al <i>brexit</i>, el racismo aumentó un 57% y la criminalidad un 41%.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "06",
+        "title": "Primeros JJOO sin espectadores",
+        "date": "2021.07.23",
+        "desc": "Debido a las dificultades de la pandemia COVID-19, el Gobierno de Japón, en un intento para no alargar más las fechas, decidió hacer los primeros Juegos Olímpicos de la historia sin público.  Esto supuso una pérdida de más de 500.000 millones de euros para Japón, además de unos juegos olímpicos vacíos, al ver que los Atletas que llevaban años entrenando, salían a competir sin el apoyo de sus aficionados.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "07",
+        "title": "Lanzamiento mundial de Pokémon GO",
+        "date": "2016.07.06",
+        "desc": "El pasado verano del 2016, Nintendo lanzó Worldwide, el nuevo Juego de Pokémon. El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. Desde el día de su lanzamiento mundial hasta pasado más de 1 mes, en las redes sociales solo se hablaba de este acontecimiento.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "08",
+        "title": "Accidente de Chernóbil",
+        "date": "1986.04.26",
+        "desc": "En 1986 una explosión en la central nuclear de Chernobyl propagó una nube radioactiva en gran parte de lo que fue la Unión Soviética y que ahora son los territorios de Belarús, Ucrania y la Federación de Rusia. Casi 8.4 millones de personas en los tres países fueron expuestas a la radiación. La ciudad de Prípiat fué la más damnificada, siendo hoy en día, una ciudad fantasma.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "09",
+        "title": "Primer dron en controlarse desde la tierra a Marte",
+        "date": "2020.07.30",
+        "desc": "Un pequeño vuelo para un helicóptero, un gran viaje para la Humanidad. Así podría definirse lo ocurrido en Marte, donde el pequeño helicóptero de 1,8 kilogramos y 85 millones de dólares Ingenuity, de la agencia espacial estadounidense NASA, realizó el primer vuelo controlado y con motor de una aeronave en otro planeta. Su primer vuelo duró sólo 39 segundos, pero para los expertos es la pieza fundacional de muchas misiones que vendrán.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "10",
+        "title": "Inicio del G8",
+        "date": "2001.07.19",
+        "desc": "Génova, julio de 2001. La reunión del G-8 suscitó una de las más importantes movilizaciones anti/altermundialistas en el cambio de siglo – y también una de las más violentas represiones estatales en un país europeo: un muerto, Carlo Giuliani, centenares de heridos y detenciones. Las previsiones más optimistas fueron superadas. Durante cuatro días, del 19 al 22 de julio, se sucedieron las iniciativas en una especie de contra-cumbre plural in crescendo terminado con más de 300.000 protestantes.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "11",
+        "title": "Hong Kong deja de ser colonizada por el Reino Unido",
+        "date": "1997.07.01",
+        "desc": "El 1 de julio de 1997, se produjo la devolución de la Isla de Hong Kong a China, colonizada por 155 años por el Reino Unido. El traspaso de la soberanía fue acordado en 1984 por la primera ministra británica, Margaret Thatcher y DengXiao-Ping, líder de la República Popular China a cambio de que esta permitiese que el territorio siguiese siendo una economía capitalista y tuviese libertades políticas.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "12",
+        "title": "Huracán Katrina",
+        "date": "2005.08.23",
+        "desc": "El 23 de agosto de 2005 el huracán Katrina se formó sobre las Bahamas y cruzó el sur de Florida como un huracán de categoría 1 moderado, causando algunas muertes e inundaciones antes de fortalecerse rápidamente en el golfo de México. Tras haber alcanzado la categoría 5, causó los estragos que lo convertirían en una de las peores catástrofes naturales de Estados Unidos.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "13",
+        "title": "Fundación de The Coca-Cola Company",
+        "date": "1892.01.29",
+        "desc": "El 8 de mayo de 1886, mientras el farmacéutico John S. Pemberton trabajaba con la fórmula de un principio medicinal a base de un jarabe (aún secreto) y agua natural, mezcló accidentalmente este compuesto con agua carbonatada, obteniendo una bebida con sabor delicioso y refrescante, la cual se convertiría en Coca-Cola.  La “coca” de su nombre se refiere a los extractos de hoja de coca que el creador de la bebida mezcló con sirope de azúcar.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "14",
+        "title": "Histórica caída de la bolsa",
+        "date": "2008.01.21",
+        "desc": "En septiembre del año 2008 quebró el banco Lehman Brothers, la cuarta entidad financiera más importante de Estados Unidos. Fué el comienzo de una crisis económica mundial que empezó al otro lado del Atlántico y rápidamente se extendió. El motivo fueron las “hipotecas basura”, llevando a los bancos a situaciones de riesgo y por las que acabaron colapsando cuando los beneficiarios de esos préstamos fueron incapaces de hacer frente a los pagos.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "15",
+        "title": "Estreno de Avatar",
+        "date": "2009.12.18",
+        "desc": "Es la película más taquillera de la historia, la última cinta dirigida hasta la fecha por James Cameron. El mundo presentado en Pandora supuso un antes y un después por su apuesta por componer la mayor parte del metraje a base de efectos por ordenador y obligó a reconvertir buena parte de las salas de cine de analógicas a digitales para poder emitirlas en 3D, que entonces parecía que iba a ser el formato del futuro.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "16",
+        "title": "Alemania Invade Polonia",
+        "date": "1939.09.01",
+        "desc": "El 1 de septiembre de 1939, Alemania invadió Polonia. Para justificar la acción, los propagandistas nazis afirmaron falsamente que, junto con sus aliados Gran Bretaña y Francia, Polonia había estado planificando rodear y desmembrar Alemania, y que los polacos estaban persiguiendo a los alemanes étnicos. La operación técnica fue conocida como “Caso Blanco”. Se calcula que hubo más de 3 millones de muertos por parte de los Nazis.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "17",
+        "title": "Disolución de la URSS",
+        "date": "1991.12.26",
+        "desc": "La disolución de la Unión Soviética fue la desintegración de las estructuras políticas federales y el gobierno central de la Unión de Repúblicas Socialistas Soviéticas (URSS), que culminó con la independencia de las quince Repúblicas de la Unión Soviética a través del tratado de Belavezha. El motivo principal de la disolución fue evitar más daños colaterales de la guerra fría.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "18",
+        "title": "Fundación de la ONU",
+        "date": "1945.10.24",
+        "desc": "Las Naciones Unidas son una organización internacional fundada en 1945 tras la Segunda Guerra Mundial por 51 países que se comprometieron a mantener la paz y la seguridad internacionales, fomentar entre las naciones relaciones de amistad y promover el progreso social, la mejora del nivel de vida y los derechos humanos. Roosevelt acuña el nombre de Naciones Unidas por primera vez durante la II Guerra Mundial.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "19",
+        "title": "Fundación de la NATO",
+        "date": "1949.04.04",
+        "desc": "La organización NATO, que tiene su sede en Bruselas, Bélgica, se creó a medida que se intensificó la Guerra Fría. Su objetivo era proteger a los países de Europa Occidental de la amenaza que suponía la Unión Soviética y contrarrestar la expansión del comunismo tras la Segunda Guerra Mundial. El objetivo es garantizar la seguridad y libertad de sus miembros. Actualmente existen 30 países miembros.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "20",
+        "title": "Tratado de Versalles",
+        "date": "1919.06.28",
+        "desc": "El 28 de junio de 1919, a las afueras de París, los dignatarios europeos se congregaron en el Palacio de Versalles para firmar uno de los tratados más odiados de la historia. El Tratado de Versalles puso fin formalmente a la Primera Guerra Mundial y, al mismo tiempo, sentó las bases de la Segunda Guerra Mundial. Aunque fue precedido de una conferencia de paz que duró más de un año, no gustó a ninguno de los países firmantes.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "21",
+        "title": "Primer episodio de The Simpsons",
+        "date": "1989.12.17",
+        "desc": "Desde el lanzamiento del primer episodio, el público mostró un interés inmediato por Los Simpson. Solo el primer episodio fue visto por más de 26 millones de estadounidenses. Al año siguiente, la serie recibió su primer Emmy al mejor programa animado. En sus inicios no estuvo exenta de polémica, en especial por Bart: su carácter rebelde, desobediente y los fracasos escolares le hicieron blanco de críticas de quienes lo consideraban un mal ejemplo para los niños.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "22",
+        "title": "Asesinato del presidente John F. Kennedy",
+        "date": "1963.11.22",
+        "desc": "“WHO KILLED JFK?” Es una de las frases más famosas, pregunta a la que, a día de hoy, sigue sin haber una respuesta clara. El 22 de noviembre de 1963, John F. Kennedy murió en su coche oficial después de recibir un disparo que le perforó la garganta. Se escucharon un total de 3 disparos en un intervalo de aproximadamente 2 segundos por disparo, de los cuales 2 impactaron contra el presidente.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "23",
+        "title": "Trump se proclama presidente",
+        "date": "2017.01.20",
+        "desc": "Contra todo pronóstico, Donald Trump se proclamó presidente de los Estados Unidos de América el 20 de enero del 2017, después de ganar las elecciones contra Hillary Clinton el 8 de noviembre del 2016. Trump fue uno de los presidentes más controversiales dado a su manera de ver el mundo y sus intenciones de “liberar América” de la “gente de color”, como el los llamaba. Fue apodado como “The first white president” por su racismo.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "24",
+        "title": "Vuelo 9525 de Germanwings",
+        "date": "2015.03.24",
+        "desc": "38 minutos más tarde del inicio del vuelo 9525 de Germanwings, el avión desapareció de todos los radares. 3 horas después, se encontró la primera caja negra y se desenmascaró toda la verdad. 0 supervivientes, 150 fallecidos. A raíz de los acontecimientos, se cambiaron las normativas de vuelo para los pilotos y Germanwings pasó a llamarse Eurowings en un intento de limpiar la imagen de la empresa.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "25",
+        "title": "Primer dron con cámara",
+        "date": "2013.01.00",
+        "desc": "La popular compañía de drones, DJI, lanzó el dron Phantom 1. Estos fueron los primeros drones equipados con cámara en ingresar al mercado comercial. El Phantom 1 fue seguido poco después por el Phantom 2, que ayudó a DJI a ganar popularidad y aumentar y reafirmar su posición en el mercado. Desde marzo de 2020 DJI representa alrededor del 70% del mercado mundial de drones de consumo.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "26",
+        "title": "WOW. Juego que batió record en los MMORPG",
+        "date": "2004.11.23",
+        "desc": "El juego World of Warcraft fue lanzado el 23 de noviembre de 2004, celebrando el décimo aniversario de la franquicia Warcraft. WOW es un juego multijugador online masivo y fue uno de los pioneros en exigir una suscripción de pago mensual. En su momento álgido llegó a tener 12 millones de jugadores suscritos. En su lanzamiento ganó varios premios, entre ellos mejor MMORPG y mejor background soundtrack.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "27",
+        "title": "Muerte de Nelson Mandela",
+        "date": "2013.12.05",
+        "desc": "En mayo de 1994, Mandela fue investido como el primer presidente negro de Sudáfrica, posición en que se mantuvo hasta 1999. Presidió la transición de la ley de la minoría y el apartheid, ganando respeto internacional por su defensa de la conciliación nacional e internacional. Antes de subir a la presidencia, Mandela recibió el nobel de la Paz en 1993 por su compromiso con los derechos humanos.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "28",
+        "title": "Primer Satélite en órbita",
+        "date": "1957.10.04",
+        "desc": "En el año de 1957 la Unión Soviética lanza con éxito el satélite Sputnik I, el primero de varios lanzados en la llamada 'Carrera espacial'. El satélite llegó a orbitar la tierra a una distancia de 938 kilómetros, y obtuvo información acerca de la densidad de las capas altas de la atmósfera. Dos años más tarde, su segunda versión, Sputnik 2, llevaría por primera vez al espacio un animal, la famosa perra Laika.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "29",
+        "title": "Accidente del RMS Titanic",
+        "date": "1912.04.15",
+        "desc": "El hundimiento de Titanic fue una catástrofe marítima ocurrida en la noche del 14 al 15 de abril de 1912, cuando colisionó con un iceberg en el océano Atlántico. La colisión se produjo en el lado de estribor lo que provocó el hundimiento del barco en menos de tres horas. Fallecieron unas 1500 personas por golpes diversos, caídas, ahogamientos o hipotermia, lo que convirtió a este naufragio en el peor de la época y en una de las mayores tragedias marítimas.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "30",
+        "title": "Muerte de Osama Bin Laden",
+        "date": "2011.05.01",
+        "desc": "La misión «Operación Lanza de Neptuno» fué el nombre en clave para matar al líder de la organización terrorista Al-Qaeda, Osama bin Laden. Fué responsable de centenares de atentados terroristas, entre ellos el 11-S. El presidente Barack Obama informó públicamente la noche del 2 de mayo que un pequeño equipo de operaciones especiales había dado muerte a Bin Laden en Abbottabad, Pakistán.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "31",
+        "title": "Bluetooth",
+        "date": "1994.00.00",
+        "desc": "En 1994 los holandeses Jaap Haartsen y Mattisson Sven desarrollaron un sistema para reemplazar el tradicional y engorroso cable. El resultado fue una tecnología de saltos de frecuencia de amplio espectro retrocompatible. La idea original surgió a principios de los 90 y se formó un SIG (Special Interest Group, grupo de trabajo conformado por diferentes empresas, quienes aportan capital monetario y humano) para llevarlo a cabo.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "32",
+        "title": "Primer Record Guiness",
+        "date": "1951.00.00",
+        "desc": "Guinness World Records– originalmente el Libro de los Records Guinness–, la máxima autoridad en materia de logros que rompen récords, comenzó como una idea de un libro de datos para resolver las discusiones en los pubs. La idea surgió a principios de los años 50, cuando Sir Hugh Beaver, director general de la cervecería Guinness, asistió a una fiesta de caza en el condado de Wexford. Allí, él y sus anfitriones discutieron sobre cuál era el ave de caza más rápida de Europa y no lograron encontrar una respuesta en ningún libro de referencia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "33",
+        "title": "División de las 2 Coreas",
+        "date": "1950.06.25",
+        "desc": "Al finalizar la Segunda Guerra Mundial en 1945, la península de Corea fue liberada de la ocupación japonesa. El norte quedó bajo la influencia de la URSS, mientras que el sur estaba dominado por los Estados Unidos. Durante años se intentó unificar las dos regiones para que formaran un único país, pero la tensión entre la URSS y Estados Unidos durante la Guerra Fría lo hizo imposible. En aquel momento, la familia Kim comenzó a gobernar en el norte, con Kim Il-sung como líder supremo.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "34",
+        "title": "Muerte de Michael Jackson",
+        "date": "2009.06.25",
+        "desc": "El mundialmente conocido “rey del pop” Michael Jackson murió a los 50 años. Los médicos intentaron revivirlo durante una hora y media, sin éxito. Su muerte causó un gran revuelo a nivel mundial. Inicialmente se determinó que la causa de la muerte fue un paro cardíaco, pero después de la autopsia se sospechó que fue un homicidio de su médico personal, que lo intoxicó con un anestésico.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "35",
+        "title": "Primera edición de los Premios Oscar",
+        "date": "1929.05.16",
+        "desc": "La primera gala de los Premios Oscar, organizada por la Academy of Motion Picture Arts and Sciences, se celebró como una cena privada en un hotel de Los Angeles, y se otorgaron premios a las mejores películas del 1927 y 1928. Desde entonces, cada año se ha celebrado esta ceremonia que reconoce las mejores obras cinematográficas. La primera edición transmitida por televisión fue en 1953.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "36",
+        "title": "Greta Thunberg contra el cambio climático",
+        "date": "2018.08.20",
+        "desc": "Greta Thunberg, desde siempre preocupada por el futuro incierto del planeta, empezó a protestar delante del Parlamento de Suecia, en Estocolmo, a los quince años. Su actitud activista captó la atención mediática mundial, y desde entonces se convirtió en el referente más joven de la lucha contra el calentamiento global. El verano de 2018 Greta creó el movimiento “Fridays for Future”, una iniciativa de estudiantes contra el cambio climático.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "37",
+        "title": "Atentado terrorista 11-M",
+        "date": "2004.03.11",
+        "desc": "El 4 de marzo de 2001 se produjeron una serie de atentados terroristas vinculados a grupos yihadistas en cuatro trenes de Madrid. Diez explosivos fueron detonados casi simultáneamente causando 193 muertos y unos 2.000 heridos. Los hechos ocurrieron 3 días antes de las elecciones generales, y las dos grandes potencias políticas (PP y PSOE) lo aprovecharon para culpar al otro de ocultar o manipular información sobre el ataque.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "38",
+        "title": "El Holocausto",
+        "date": "1933.00.00",
+        "desc": "El Holocausto fue un genocidio masivo caracterizado por la persecución y el asesinato sistemático de aproximadamente seis millones de judíos europeos por parte del régimen alemán nazi, liderado por Adolf Hitler. Empezó en 1933 y no terminó hasta 1945, con el fin de la Segunda Guerra Mundial. Aún quedan en pie algunos de los campos de concentración construidos para encerrar, denigrar y matar a los judíos.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "39",
+        "title": "Finaliza la construcción del Burj Khalifa",
+        "date": "2010.01.04",
+        "desc": "El rascacielos más alto del mundo, el Burj Khalifa, estuvo en construcción durante más de 5 años y se terminó en 2010, con una altura total de 830 metros. Ubicado en Dubai, es el edificio más icónico de la ciudad, pero su construcción coincidió con la crisis financiera de 2008, suponiendo una deuda multimillonaria para el gobierno del país. Originalmente se iba a llamar Burj Dubai.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "40",
+        "title": "Finaliza la construcción de la Torre Eiffel",
+        "date": "1889.03.31",
+        "desc": "La construcción más famosa de Francia, y uno de los hitos arquitectónicos más conocidos del mundo, la Torre Eiffel, fue terminada en 1889 después de dos años de trabajo, justo a tiempo para la Exposición Universal de París del mismo año. Diseñada por Gustave Eiffel, inicialmente la Torre no se iba a construir al lado del Sena, en París, sino que se ideó para Barcelona. Sin embargo, fue rechazada porque no coincidía con la estética local.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "41",
+        "title": "Incendio masivo en el Amazonas",
+        "date": "2019.08.09",
+        "desc": "Una serie de incendios sin precedentes golpearon la jungla del Amazonas durante el año 2019. Las llamas, especialmente activas durante el verano, la época donde la vegetación está más seca, arrasaron con alrededor de 900.000 hectáreas de bosque. Aunque el fuego no afectó directamente ninguna gran ciudad, sus humos oscurecieron los cielos de poblaciones a más de 3.000 kilómetros de distancia, como la de Sao Paulo.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "42",
+        "title": "Incendio de Notre Dame, París",
+        "date": "2019.04.15",
+        "desc": "Presuntamente causado accidentalmente durante unas tareas de restauración, el incendio de Notre Dame fue una catástrofe que causó revuelo mundial. En cuestión de minutos se derrumbó parte del techo y cayó la aguja central, causando graves daños a la integridad del edificio. Sin embargo, gracias a su gran relevancia como monumento histórico y religioso, la catedral recibió un alud de donaciones de alrededor del mundo para su reconstrucción, que sigue en curso.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "43",
+        "title": "Terremoto más intenso de la historia",
+        "date": "1960.05.27",
+        "desc": "Ocurrió cerca de Valdivia, en Chile, y fue un sismo de magnitud 9,5 en la escala de Richter, el mayor jamás registrado. Causó mucha destrucción en las poblaciones cercanas al epicentro, y la cifra de muertes se elevó a las 6.000, aproximadamente. El mismo terremoto también causó un gran tsunami que llegó con mucha intensidad a Hawaii, y se notó en Oceanía y toda la costa este de Asia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "44",
+        "title": "Tsunami más devastador de la historia",
+        "date": "2004.12.26",
+        "desc": "Provocado por un terremoto submarino cerca de la costa de Indonesia, el desastre conocido como el tsunami del Océano Índico fue el más devastador jamás registrado. Barrió las costas de todos los países que limitan con el océano, incluyendo Indonesia, Malasia, Sri Lanka, India y Tailandia. Se calcula que perdieron la vida más de 200.000 personas en olas que superaron los 30 metros de altura.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "45",
+        "title": "Inicio de los incendios en Australia",
+        "date": "2019.06.00",
+        "desc": "A mediados de 2019 empezó una temporada de incendios contínuos en Australia, provocados por diversos motivos pero el principal siendo la sequía. Se quemaron más de 23 millones de hectáreas, el 21% del área de la isla, y muchas viviendas quedaron carbonizadas. También se quemaron los hábitats de muchas especies autóctonas, algunas en peligro de extinción. El episodio de incendios se tuvo controlado por completo en marzo de 2020.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "46",
+        "title": "Creación de YouTube",
+        "date": "2005.02.14",
+        "desc": "La plataforma libre y gratuita de publicación de vídeos YouTube surgió en 2005 de la mente de tres ex-empleados de PayPal. Desde entonces, ha adquirido una popularidad como página web que sólo puede superar el motor de búsqueda Google. Su clave para mantenerse relevante durante tantos años ha sido la constante adaptación de su diseño visual y su filosofía abierta a que cualquier persona pueda colgar cualquier cosa.",
+        "category": "tech",
+        "imageExtension": "png"
+    },
+    {
+        "id": "47",
+        "title": "Inglés como lengua universal",
+        "date": "1880.00.00",
+        "desc": "A finales del siglo XIV se empezó a buscar un idioma universal para poder facilitar la comunicación entre países. Debido a la influencia de la ciencia, y especialmente la medicina, cuyas grandes potencias eran Estados Unidos (con el inglés) y Alemania (con el alemán), la lengua universal se disputaba entre estas dos. A raíz de los acontecimientos nazis, Alemania perdió la aceptación internacional, y el inglés se estableció definitivamente.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "48",
+        "title": "Fundación de Amnistía Internacional",
+        "date": "1861.05.28",
+        "desc": "Amnistía Internacional es una organización dedicada a que se reconozcan y se respeten los derechos humanos en todo el mundo. Se considera el colectivo con más trayectoria y el referente en el campo de los derechos humanos. Fue fundada por Peter Benenson en el Reino Unido, y actualmente cuenta con más de 7 millones de activistas, miembros y simpatizantes en más de 150 países.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "49",
+        "title": "El robo que lanzó a la fama a la Gioconda",
+        "date": "1911.08.21",
+        "desc": "Desde que se expuso en el museo del Louvre a principios del siglo XIV, La Gioconda (también conocida como Mona Lisa) no tenía ni de lejos la popularidad que tiene hoy. Fue gracias a un misterioso robo que ocurrió en 1911 que la convirtió en una de las obras más conocidas del mundo. El robo ocurrió, supuestamente, a plena luz del día, sin que nadie se diera cuenta, y no se recuperó hasta dos años después, en un anticuario de Florencia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "50",
+        "title": "Salto desde la estratosfera de Felix Baumgartner",
+        "date": "2012.10.14",
+        "desc": "El paracaidista Felix Baumgartner anunció en 2010 que estaba trabajando con un equipo de científicos para realizar el salto en caída libre más alto desde una cápsula impulsada por un globo de helio, y ser el primer hombre en romper la barrera del sonido en caída libre. Después de hacer dos saltos de prueba de menos altura, el 14 de abril de 2012 hizo el intento oficial, cayendo desde más de 39km de altura durante 4 minutos y medio.",
+        "category": "history",
+        "imageExtension": "png"
+    },
+    {
+        "id": "51",
+        "title": "Inicio de la Guerra fría",
+        "date": "1947.03.12",
+        "desc": "La guerra fría fue un conflicto entre los dos grandes sistemas políticos, el capitalismo y el comunismo, liderados por Estados Unidos y la Unión Soviética respectivamente. Dos años después del fin de la Segunda Guerra Mundial, empezaron a subir las tensiones entre estos dos países (con sus respectivos aliados), pero siendo conscientes que otra guerra sería un evento catastrófico (teniendo en cuenta que ambos bandos tenían armamento nuclear), se decidió tener una guerra sin combates, basada en el espionaje, la acumulación armamentística y la carrera espacial, entre otros.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "52",
+        "title": "Descubrimiento de la penicilina",
+        "date": "1928.09.15",
+        "desc": "El médico y científico británico Alexander Fleming descubrió el antibiótico conocido como penicilina, uno de los avances médicos más importantes de la historia, por accidente, mientras realizaba otros experimentos. La penicilina marcó el inicio de la era de los antibióticos, medicinas que eliminan eficazmente infecciones bacterianas y que son esenciales en el paradigma médico actual.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "53",
+        "title": "Primer malware informático",
+        "date": "1988.11.02",
+        "desc": "El 10% de todos los ordenadores con acceso a internet el año 1988 (incluidos ordenadores de investigación de la NASA) quedaron infectados del primer malware informático autorreplicable, llamado Gusano Morris. Creado por Robert Morris, supuestamente por error, este programa podía adivinar contraseñas y, en algunos casos, dejaba los ordenadores inutilizables. A raíz de este incidente se creó el Equipo de Respuesta ante Emergencias Informáticas (CERT).",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "54",
+        "title": "Creación del lenguaje de programación Java",
+        "date": "1995.03.23",
+        "desc": "Java es uno de los lenguajes de programación más usados en todo el mundo, presentes tanto en sitios webs como en aplicaciones de ordenador y móvil. Creado a partir del lenguaje C y pensado como un lenguaje orientado a objetos de altísima versatilidad, java es un referente para otros lenguajes más modernos como JavaScript, el estándar en programación web.",
+        "category": "tech",
+        "imageExtension": "png"
+    },
+    {
+        "id": "55",
+        "title": "Primer casco de VR para el público general (Oculus Rift)",
+        "date": "2016.03.28",
+        "desc": "Aunque ya hacía tiempo que se experimentaba con la realidad virtual, no fue hasta 2016 que salió al mercado el primer casco de VR comercial: el Oculus Rift, de la marca con el mismo nombre. Valía 600$ y sólo funcionaba conectándose a un PC de alta gama, pero marcó la base para las futuras innovaciones en este campo, un campo que progresa a una velocidad altísima.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "56",
+        "title": "Elon Musk anuncia coches 100% autónomos",
+        "date": "2016.11.19",
+        "desc": "<<Si el coche atropella a un civil, quien tendría la culpa, la máquina o el hombre?>> Esta y muchas otras fueron las preguntas que inundaron las redes sociales en todo el mundo después de que Elon Musk anunciara los coches 100% autónomos de Tesla. Unos dilemas morales que aún no se han puesto a prueba, ya que en muchos países no están permitidos los coches totalmente autónomos. Sin embargo, los coches eléctricos de Tesla sí que tienen muchas herramientas de conducción autónoma para ayudar al conductor, como aparcamiento asistido y reconocimiento de señales y líneas de la calzada.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "57",
+        "title": "Invención de la bombilla LED",
+        "date": "1962.00.00",
+        "desc": "El Diodo Emisor de Luz (o Light Emitting Diode en inglés) es una de las últimas y más relevantes innovaciones en el campo de la iluminación. Se trata de un componente electrónico muy pequeño que, al ser conectado a una corriente eléctrica, emite una gran cantidad de luz. A diferencia de las bombillas convencionales, el consumo eléctrico del LED es mucho menor, y por esta razón se ha convertido en el estándar de iluminación actual.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "58",
+        "title": "Lanzamiento del primer smartphone (iPhone)",
+        "date": "2007.06.29",
+        "desc": "En enero de 2007, en una presentación de Apple, Steve Jobs anunció un nuevo dispositivo revolucionario: el iPhone, un teléfono con pantalla táctil y funciones que antes eran exclusivas de los ordenadores. Considerado el primer smartphone de la historia y el dispositivo que empezó una nueva era tecnológica, este móvil de Apple causó furor mundial y fue un éxito de ventas cuando salió en junio, con muchas tiendas quedándose sin stock a una hora de haber lanzado el producto.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "59",
+        "title": "IBM lanza el primer ordenador cuántico comercial (IBM Q System One)",
+        "date": "2019.01.00",
+        "desc": "Una de las últimas innovaciones en tecnología computacional son los ordenadores cuánticos. Estas máquinas se caracterizan por poder hacer ciertos cálculos y operaciones mucho más rápido que los ordenadores convencionales. IBM, una empresa pionera en el sector de la computación, ha conseguido crear el primer ordenador cuántico basado en circuitos disponible para que cualquier empresa que lo solicite lo pueda adquirir.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "60",
+        "title": " Presentación pública de TerraVision, predecesor de Google Maps",
+        "date": "1994.09.19",
+        "desc": "Un grupo de artistas e ingenieros alemanes, bajo el nombre de ART+COM, crearon TerraVision, un programa informático que mostraba una versión interactiva del planeta Tierra con la que los usuarios podían viajar donde quisieran. Inicialmente concebida como una obra de arte, fue tal su éxito cuando se presentó en una exposición tecnológica de Kyoto que se cree que Google, creador de Google Maps, les copió parte del código fuente para su famoso programa.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "61",
+        "title": "Primer Festival de la Canción de Eurovisión",
+        "date": "1956.05.24",
+        "desc": "Inspirado por el Festival de la Canción de Sanremo, el primer Festival de la Canción de Eurovisión se celebró en Lugano, Suiza, y tuvo la participación de siete países europeos: Alemania Occidental, Suiza, Francia, Luxemburgo, Italia, Países Bajos y Bélgica. Al ser tan pocos participantes se decidió que cada país enviase dos canciones, de las cuales salió victoriosa “Refrain”, de la cantante suiza Lys Assia. España participó por primera vez en 1961.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "62",
+        "title": "Primeros juegos olímpicos contemporáneos",
+        "date": "1896.04.06",
+        "desc": "Se celebraron en Atenas, Grecia (el país donde se solían celebrar las olimpiadas de la edad antigua) y contaron con la participación de 241 atletas masculinos. No hubo participación femenina, y no la habrá hasta los juegos de 1900 en París. Sin embargo, el evento fue un gran éxito, convirtiéndose en el evento deportivo con participación de más países hasta la fecha.",
+        "category": "history",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "63",
+        "title": "Primera película comercial en usar un ordenador",
+        "date": "1973.08.17",
+        "desc": "La primera producción comercial en crear un efecto visual con ordenador fue Westworld, un film de ciencia ficción donde se quería representar el punto de vista de un robot. Para conseguirlo, modificaron las imágenes con una herramienta informática que ellos mismos tuvieron que programar, debido a que eran los primeros en hacer un efecto de este tipo. Esto hizo que se tuviera que retrasar el estreno de la película, pero marcó un punto de inflexión en la creación de efectos especiales.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "64",
+        "title": "VIOLAWWW, primer navegador web gráfico de la historia",
+        "date": "1992.03.09",
+        "desc": "ViolaWWW fue un navegador web gráfico, considerado el primero de la historia, precursor del popular navegador Mosaic que posteriormente se convertiría en el primer referente clásico de la tecnología World Wide Web. Fué desarrollado por Pei-Yuan Wei y aunque solo soportaba gráficos bitmap en blanco y negro y su funcionalidad se restringía a entornos X-Window, sorprendentemente apuntaba ya mucho más lejos que su sucesor en muchos otros aspectos.",
+        "category": "tech",
+        "imageExtension": "gif"
+    },
+    {
+        "id": "65",
+        "title": "Aparición comercial de los primeros Discos de Vinilo",
+        "date": "1948.00.00",
+        "desc": "Los discos de vinilo han sido, hasta la aparición de los CDs, el método por excelencia para almacenar (y posteriormente reproducir) sonido. Surgieron como una mejora de los anteriores discos de 78 rpm, que tenían un aspecto similar pero eran más pequeños, con menor capacidad de almacenamiento y más frágiles. Actualmente los discos de vinilo están recuperando su popularidad como objetos “retro”.",
+        "category": "tech",
+        "imageExtension": "jpeg"
+    },
+    {
+        "id": "66",
+        "title": "Creación de Google Chrome",
+        "date": "2008.08.02",
+        "desc": "Basado en un proyecto de código abierto llamado Chromium, el navegador Google Chrome se ha consolidado como el programa de navegación web con más usuarios de la historia, con unos 3,2 mil millones. Creado por Google en 2008 y pensado para funcionar nativamente con todas las ya existentes aplicaciones web de la compañía, Chrome ha superado ampliamente a la competencia en popularidad.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "67",
+        "title": "Primera consola portátil con juegos en cartuchos",
+        "date": "1979.00.00",
+        "desc": "Desarrollada por la empresa Milton Bradley, Microvision fue la primera consola de videojuegos portátil y con los juegos en cartuchos intercambiables. Tenía una pantalla de solamente 16x16 píxeles y los juegos se controlaban mediante un teclado y una paleta rotativa. Era un dispositivo muy simple, pero marcó un antes y un después en la industria de las videoconsolas, con muchas sucesoras que replicaron su sistema de cartuchos, como la GameBoy o la Nintendo DS.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "68",
+        "title": "Nace TETRIS, el videojuego más jugado de la historia.",
+        "date": "1984.06.06",
+        "desc": "Se trata de un videojuego de lógica mundialmente conocido por varias generaciones y originariamente diseñado y programado por Alekséi Pázhitnov en la Unión Soviética. El concepto es sencillo: desde la parte superior de la pantalla caen bloques de diferentes formas que el jugador puede girar y, si al caer rellenan una línea sin dejar espacios desaparecen; si llegan al borde superior de la pantalla termina la partida.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "69",
+        "title": "Renault Dauphine, el primer co-branding de la historia",
+        "date": "1956.00.00",
+        "desc": "Renault- empresa del mundo del motor- y Van Cleef & Arpels-joyeros- se asocian para sacar el Renault Dauphine, el primer Co-Branding de la historia. El Renault Dauphine es un automóvil económico con motor trasero en un estilo de carrocería única, un saloon de tres cajas y cuatro puertas. Más de dos millones de unidades fueron fabricadas durante su producción de 1956-1967. También se comercializaron otras variantes de lujo.",
+        "category": "tech",
+        "imageExtension": "png"
+    },
+    {
+        "id": "70",
+        "title": "Latas de sopa Campbell, Andy Warhol",
+        "date": "1962.00.00",
+        "desc": "Serie de 32 lienzos con cada una de las variedades Sopa Campbell, dentro del movimiento del Pop-Art. La cultura popular fabrica sus propios iconos estéticos y Warhol fue uno de los primeros en reconocerlos como Arte; al mostrar la repetición de 32 latas las convirtió en una abstracción, donde el conjunto cobraba más importancia que los detalles. Las pinturas individuales fueron realizadas con un proceso semimecanizado de serigrafía.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "71",
+        "title": "Inicio construcción Sagrada Familia",
+        "date": "1882.03.19",
+        "desc": "La sagrada familia es el actual símbolo de la ciudad de Barcelona y el monumento más visitado de España. Fue diseñado por Antoni Gaudí, arquitecto modernista catalán, y se trata de una basílica católica de estilo orgánico con formas naturales pero donde también abundan formas geométricas (excepto la cripta y el ábside, de estilo neogótico). Hoy en día, sigue en construcción y otros arquitectos han trabajado en ella.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "72",
+        "title": "La Fuente, Marcel Duchamp",
+        "date": "1917.00.00",
+        "desc": "“Les arrojé a la cabeza un urinario como provocación y ahora resulta que admiran su belleza estética…”. El artista compró un urinario blanco de porcelana, lo giró, lo firmó con un pseudónimo y lo envió a la Sociedad de Artistas Independientes para que lo incluyeran en las exposición anual. De esta manera el dadaísta creó la primera obra de arte conceptual y plantó la idea de que ‘cualquier cosa en un museo es arte.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "73",
+        "title": "Estreno Casablanca",
+        "date": "1942.00.00",
+        "desc": "Drama romántico basado en la obra teatral 'Everybody Comes to Rick’s'. Fue dirigida por Michael Curtiz y protagonizada por Humphrey Bogart en el papel de Rick Blaine e Ingrid Bergman como Ilsa Lund, y trata sobre un triángulo amoroso en la época nazi. Es una de las películas mejor valoradas de la cinematografía estadounidense y ganó varios premios Oscar en 1943, incluyendo Mejor Película.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "74",
+        "title": "Nace Marvel Studios",
+        "date": "1993.12.07",
+        "desc": "Conocido al principio como Marvel Films, es un estudio cinematográfico estadounidense con sede en los Walt Disney Studios (California) conocido por producir el Universo cinematográfico de Marvel, basado en los personajes de Marvel Comics. Desde 2008 ha estrenado 27 películas, iniciando con Iron Man, hasta Spider-Man: no way home, además de varias series de televisión con las que comparte continuidad.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "75",
+        "title": "4G",
+        "date": "2010.00.00",
+        "desc": "Tipo de conexión a Internet para móviles, diferenciada del resto gracias a una mayor velocidad y menor latencia. Sus siglas hacen referencia a la cuarta generación móvil y sustituye al 3G, el tipo de conexión más habitual hasta el momento. Su implementación general ha permitido el consumo de contenidos de mayor peso desde los teléfonos móviles, como vídeos o fotografías de mejor calidad.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "76",
+        "title": "La Pedrera",
+        "date": "1912.00.00",
+        "desc": "Edificio construido por el arquitecto Antoni Gaudí por encargo de Pere Milà y Roser Segimon. Su nombre, 'Casa Milà', se debe a este hecho: fue la nueva residencia de la familia Milà. El matrimonio ocupó el piso principal y alquiló el resto de viviendas. Es conocida como “La Pedrera” por su sinuoso aspecto exterior, que presenta formas extraídas de la naturaleza. Esta fue la última obra civil de Gaudí.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "77",
+        "title": "Estreno Star Wars: Episode IV - A New Hope",
+        "date": "1977.05.25",
+        "desc": "Película estadounidense del subgénero de ciencia ficción space opera escrita y dirigida por George Lucas. Es la primera entrega de la trilogía original, parte de una franquicia y una de las sagas más vistas de todos los tiempos, y desde su estreno se considera un hito del cine, especialmente por sus efectos visuales. Además de ser una de las películas más exitosas de la historia ganó 6 premios Oscar, de 10 nominaciones obtenidas.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "78",
+        "title": "League of Legends",
+        "date": "2009.10.27",
+        "desc": "League of Legends es un videojuego de equipo de estrategia y acción en tiempo real con más de 140 campeones con los que realizar jugadas. Ha sido creado por Riot Games y actualmente hay más de 100 millones de personas realizadas y cada año se celebran torneos profesionales internacionales. Además, en 2021 se estrenó la primera temporada de Arcane, una serie de animación basada en la trama del juego.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "79",
+        "title": "Cuadrado negro sobre fondo blanco, Malevich",
+        "date": "1915.00.00",
+        "desc": "Es el himno de Malevich al suprematismo, movimiento artístico de vanguardia inventado por él que usaba las formas más abstractas y figuras geométricas básicas, como este cuadrado. Malévich hizo al menos cinco versiones, de las cuales se conservan cuatro; y la primera vez que fue mostrada fue en la exposición llamada Última exposición futurista: 0.10, realizada en Petrogrado (Rusia).",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "80",
+        "title": "Constructivismo (1914-1930)",
+        "date": "1914.00.00",
+        "desc": "Movimiento artístico originado en Rusia de la primera mitad del siglo XX y que pretende transmitir los valores del comunismo. El principal ideal de este movimiento era el uso del arte con propósitos sociales, reflejando un interés compositivo en la construcción. Los artistas constructivistas demostraban el dominio y poder que tenían sobre el material con el que trabajaban.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "81",
+        "title": "La metamorfosis, Franz Kafka",
+        "date": "1915.00.00",
+        "desc": "También conocida como La Transformación es una novela corta dividida en tres partes que cuenta la historia de Gregorio Samsa. Este sufre una repentina transformación en insecto, cosa que dificulta la comunicación de su entorno con él y que, al final, es considerado intolerable por su familia y acaba muriendo. Destaca especialmente por el carácter simbólico de lo absurdo cuando falta la explicación lógica en la vida.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "82",
+        "title": "La trahison des images, René Magritte",
+        "date": "1929.00.00",
+        "desc": "Conocido como 'Ceci n’est pas une pipe (Esto no es una pipa)', este cuadro de René Magritte se podría calificar como precursor del arte conceptual. Es óleo sobre un lienzo situado estratégicamente para simular algo: efectivamente no es una pipa, solo la representación de ella. Esta pipa surrealista no puede fumarse y demuestra, por tanto, que toda representación pictórica se halla definitivamente separada de la realidad.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "83",
+        "title": "Dona i Ocell, Joan Miró",
+        "date": "1983.00.00",
+        "desc": "Colocada en el Parc de Joan Miró se encuentra la última obra de grandes proporciones (21m de altura) del polifacético artista. Principalmente hecha con de hormigón y recubierta de cerámicas- tratadas como trencadís- de colores vistosos representa una imagen femenina- reconocible gracias a ahuecada cubierta de cerámica negra que toma la forma de vagina - con sombrero y, sobre este, un pájaro.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "84",
+        "title": "El Carnaval de Arlequín, Joan Miró",
+        "date": "1924.00.00",
+        "desc": "Pintura surrealista que arrasó en la exposición colectiva de la Peinture surréaliste de París de 1924. De manera aparentemente espontánea, Miró plasma un universo infantil lleno de objetos coloridos que parecen moverse por todo el cuadro. Tal como dice Miró: “Intenté plasmar las alucinaciones que me producía el hambre que pasaba. No es que pintara lo que veía en sueños [...] sinó que el hambre me producía una especie de tránsito”.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "85",
+        "title": "La persistencia de la memoria,  Salvador Dalí",
+        "date": "1931.00.00",
+        "desc": "Inspirado por el camembert y la Teoría de la Relatividad de Einstein, Dalí pintó este simple paisaje marino (típico de Cadaqués) en el que hay una escena insólita: una extraña criatura durmiendo o inerte sobre la arena (incluso hay quien ve un autorretrato del pintor) y unos relojes que se derriten sobre ella y sobre otros elementos del cuadro, relojes que son un símbolo inconsciente de la relatividad del espacio y el tiempo.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "86",
+        "title": "The Skat Players, Otto Dix",
+        "date": "1920.00.00",
+        "desc": "Con esta pintura Dix pretendía mostrar la degradada vida en la sociedad alemana posterior a la guerra de una manera directa, con menos simbolismos y representaciones más realistas- propias del New Objectivity- además de una visión satírica. Pinta la guerra como una apuesta entre diferentes veteranos con cuerpos desfigurados, que tras su servicio, el único propósito que les queda es jugar a cartas.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "87",
+        "title": "Fundación Paramount Pictures",
+        "date": "1912.05.08",
+        "desc": "Se trata de una compañía productora y distribuidora de cine, con sede en Hollywood (California) y fue, en los inicios del cine, uno de los estudios más importantes, junto con Universal Pictures. Además, tuvo gran relevancia en la consolidación del cine de los años 30. Entre otras han producido películas como 'Breakfast at Tiffany’s', 'The Godfather', 'Grease', 'The Truman Show', 'Mission Impossible' o 'Titanic'.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "88",
+        "title": "Breakfast at Tiffany’s",
+        "date": "1961.00.00",
+        "desc": "Comedia romántica producida por Paramount Pictures, dirigida por Blake Edwards y adaptada de la novela de Truman Capote. Trata sobre Holly Golightly- interpretada por Audrey Hepburn-, una chica ingenua y excéntrica que se enamora de un escritor. Ganó 2 Oscar y 5 Grammy y recientemente (2012) ha sido seleccionada para la preservación en la National Film Registry de USA”.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "89",
+        "title": "Díptico de Marilyn, Andy Warhol",
+        "date": "1962.00.00",
+        "desc": "Esta es una serigrafía perteneciente al Pop Art contiene 50 imágenes de la actriz Marilyn Monroe. Las del lado izquierdo del díptico son de colores brillantes, mientras que las de la derecha se muestran en blanco y negro; contraste que podría ilustrar la diferencia entre la vida pública de la actriz y su vida privada o, incluso, entre la vida y la muerte. En 2004 fue nombrada la tercera pieza más influyente del arte moderno.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "90",
+        "title": "Danae, Gustav Klint",
+        "date": "1907.00.00",
+        "desc": "Esta pintura ilustra el mito de Danae. Aparece la figura femenina típica de Klimt: pelirroja (color de las femmes fatales tan de su gusto simbolista), pálidas con mejillas rosadas, boca entreabierta y pose forzada pero muy expresiva de las manos. Además, en el sensual conjunto, casi erótico, se aprecia el oro, las curvas propias del Art Nouveau, las diferentes texturas y la posición fetal de la mujer.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "91",
+        "title": "Los girasoles, Van Gogh",
+        "date": "1888.00.00",
+        "desc": "Existen varias versiones de girasoles pintadas por Vincent van Gogh, aunque la más conocida es la expuesta en la National Gallery (Londres). El pintor realizó estas obras en Arles, mientras esperaba la llegada de Gauguin y, para él, estaban cargadas de simbolismo: por un lado representaban la devoción y, por otro, la sinestesia que sentía con los colores (el amarillo siendo aquel que mejor representaba su mundo interior).",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "92",
+        "title": "Automat, Edward Hopper",
+        "date": "1927.00.00",
+        "desc": "En esta obra del artista realista neoyorquino, una chica se toma un café melancólicamente sentada en un «automat», un local de hostelería típico de los años 20 donde no había camarero. No se dan pistas sobre qué le pasa a la chica, es el espectador quien debe realizar su propia interpretación. La revista Time usó esta imagen como portada para una historia sobre el estrés, la soledad y la depresión en el siglo XX.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "93",
+        "title": "Cinemascope",
+        "date": "1953.00.00",
+        "desc": "Sistema inventado por Henri Jacques Chrétien que usa una lente anamórfica en la cámara para comprimir las imágenes registradas en el film de 35mm y una lente idéntica en el proyector para descomprimir las imágenes en pantalla. Gracias a ello, el CinemaScope tiene una relación de aspecto de 2,35:1, por lo que las imágenes son el doble de anchas de lo común y se obtiene un mayor campo de visión.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "94",
+        "title": "Estrena Harry Potter y la piedra filosofal",
+        "date": "2001.11.30",
+        "desc": "Primera película producida por Warner Bros de la saga fantástica sobre las aventuras de Harry Potter, el mundo mágico y su lucha contra Voldemort; una de las más populares y exitosas en taquilla alrededor del mundo. Las películas son una adaptación de los libros escritos por J.K.Rowling y la marca Harry Potter actualmente incluye una obra teatral, un parque temático y la precuela 'Animales fantásticos y dónde encontrarlos', entre otros.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "95",
+        "title": "Lunch atop a Skyscraper, Charles C. Ebbets, Thomas Kelley y William Leftwich",
+        "date": "1932.00.00",
+        "desc": "Esta fotografía fue tomada en el piso 69 del emblemático edificio RCA, como parte de una campaña de promoción del complejo de rascacielos. En ella se ven 11 hombres comiendo despreocupadamente, charlando y fumando como si no estuvieran a 257 metros por encima de Manhattan con únicamente una delgada viga manteniéndolos en alto. Simboliza la resistencia y la ambición de los estadounidenses en un momento en el que era necesario.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "96",
+        "title": "The Falling Soldier, Robert Capa",
+        "date": "1936.00.00",
+        "desc": "La imagen de Capa de un miliciano español siendo fusilado fue tomada sin que él mirara por su visor. Esta imagen llevó la fotografía de guerra a un nivel diferente: poco después, los periodistas empezaron a integrarse formalmente en las unidades del ejército al darse cuenta de su importancia para captar y documentar los horrores de la guerra. Si bien no es técnicamente perfecta, es eso lo que hace que resulte plenamente creíble.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "97",
+        "title": "V-J Day in Times Square, Alfred Eisenstaedt",
+        "date": "1945.08.14",
+        "desc": "La misión de Eisenstaedt a través de la fotografía era “encontrar y captar el momento narrativo”. Su famosa fotografía posterior a la Segunda Guerra Mundial fue tomada con una Leica y publicada en la revista Life pocos días después. Situada en Times Square y con un soldado y una enfermera dental como personajes centrales se ha convertido en una de las imágenes más icónicas del siglo XX, ilustrando el alegre final de años de guerra.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "98",
+        "title": "The vulture and the little girl, Kevin Carter",
+        "date": "1993.00.00",
+        "desc": "Esta imagen ganadora del Premio Pulitzer en la que aparece una niña derrumbada, con un buitre acechando sobre ella fue famosa tanto por su impacto social como por las cuestiones éticas que planteó. No sólo causó la indignación del público por lo espantoso del tema- la hambruna africana- sino que también suscitó muchas críticas hacia el fotógrafo, por fotografiar a la niña, en lugar de ayudarla.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "99",
+        "title": "Impression del sol naciente, Monet",
+        "date": "1873.00.00",
+        "desc": "Con esta pintura expuesta en el Salón de los rechazados nace el impresionismo. Las pinceladas son libres, rápidas, directas y la composición aparentemente espontánea permite a las formas desaparecer casi por completo. Fue tan moderna que los jóvenes artistas empezaron a pintar así: salieron al exterior y convirtieron la luz en el tema principal del cuadro. La pintura fue robada del museo en 1985 y recuperada en 1990.",
+        "category": "art",
+        "imageExtension": "png"
+    },
+    {
+        "id": "100",
+        "title": "Pillars Of Creation, Nasa",
+        "date": "1995.00.00",
+        "desc": "Fotografía de la nebulosa del Águila, una zona de formación estelar situada a 6.500 años luz de la Tierra en la constelación de Serpens Cauda, hecha con el telescopio Hubble. Las grandes chimeneas son vastas nubes de polvo interestelar, formadas por los vientos de alta energía que soplan desde las estrellas cercanas y se trata de una imagen tan clara que se conoce como ‘Los Pilares de la Creación’.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img5",
+        "title": "Twin Peaks, David Lynch",
+        "date": "1990.00.00",
+        "desc": "Twin Peaks fue una serie de televisión estadounidense creada por David Lynch y Mark Frost. Su primera transmisión fue el 8 de abril de 1990. La serie señala el año cero de la nueva televisión debido a que rompía con lo establecido hasta el momento, películas y series “lineales”. Irónicamente, justo por ese motivo se encuentra la causa de su cancelación, pues no existió cohesión entre la audiencia y esta innovación narrativa.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img6",
+        "title": "Toy Story, John Lasseter (Pixar)",
+        "date": "1995.00.00",
+        "desc": "El 22 de noviembre de 1995 Pixar estrenaba su primer largometraje. Toy Story demostró al mundo el potencial de los ordenadores en el cine y cambió las reglas de la animación. Representó un salto adelante radical tanto en la tecnología como en la manera de contar historias de animación. El film se hizo acreedor de numerosos premios y nominaciones, incluyendo un Nickelodeon Kids' Choice, un MTV Movie y un BAFTA, entre otros.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img10",
+        "title": "Pokémon, Satoshi Tajiri",
+        "date": "1996.00.00",
+        "desc": "Pokémon o su nombre original Pocket Monster, fué diseñado y planteado por Satoshi Tajiir, quien desde su infancia le encantaba criar y capturar bichos de la naturaleza. Cuando llegaron las primeras consolas al mercado, Satoshi dejó de un lado su hobbie y empezó a escribir manuales donde descubría los secretos de los videojuegos. Con el éxito que tuvo creó la revista Game Freak. Más adelante, junto con su amigo Ken Sugimori y el programador/compositor Junichi Masuda plasmaron el Hobbie de Satoshi en un videojuego.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img11",
+        "title": "Maman, Louise Bourgeois",
+        "date": "1999.00.00",
+        "desc": "Mamá (“Maman” en francés) es una gran escultura con forma de araña de la artista francesa-americana Louise Bourgeois. Está realizada en bronce, acero inoxidable y mármol. Pesa 22 toneladas, y mide 10 metros de altura y 10 de diámetro. Es una de las esculturas de arte contemporáneo que forma parte de las colecciones permanentes de diferentes museos en países tan diversos que van desde Canadá a Japón.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img14",
+        "title": "El viaje de Chihiro, Hayao Miyazaki",
+        "date": "2001.00.00",
+        "desc": "El Viaje de Chihiro es una película de anime japonés del galardonado estudio de animación Ghibli. Escrita y dirigida por Hayao Miyazak, el filme cuenta la historia de una niña de diez años llamada Chihiro, quien durante una mudanza se ve atrapada en un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres, y así poder regresar a su mundo.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img15",
+        "title": "Weather Project, Olafur Eliasson",
+        "date": "2003.00.00",
+        "desc": "Instalación específicamente creada para el Turbine Hall del Tate Modern (Londres) que usa una pantalla semicircular, un techo de espejos y una neblina o vapor artificial, además de un espejo gigante suspendido del techo que duplicaba visualmente el tamaño de la habitación y unas 200 luces de relleno, para crear la ilusión de un enorme atardecer en un espacio interior.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img18",
+        "title": "For the Love of God, Damien Hirst (8601 diamantes)",
+        "date": "2007.00.00",
+        "desc": "Perteneciente a la obra del Brit-Art, se trata de un cráneo inusual: una calavera en platino incrustada con 8.601 diamantes perfectamente cortados y pulidos valorada en 72 millones de euros. Hirst se inspiró en una pieza de origen azteca que se conserva en el British Museum y pretendía ser una celebración de la vida, recubriendo la muerte con la “lujuria, el deseo y la decadencia”.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img19",
+        "title": "Christian Marclay, The Clock",
+        "date": "2010.00.00",
+        "desc": "Se trata de una proyección de vídeos construida a partir de un montaje de escenas de televisión y cine en la que el tiempo es expresado de alguna manera (personajes mirando la hora, una hora concreta en un reloj…). La obra en sí funciona como un reloj y su presentación es sincronizada con la hora local, pero al mismo tiempo rompe con todo sentido de coherencia cronológica.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img23",
+        "title": "Una odisea del espacio, Stanley Kubrick",
+        "date": "1968.00.00",
+        "desc": "Se trata de una película de ciencia ficción que trata del inicio de un largo viaje, recorriendo por diversos periodos de la historia de la humanidad, pasado, presente y futuro. Este producto audiovisual fue de lo más impresionante del cine de esa época determinada. Puesto a que no pretende ofrecer una evolución de vida, sino hacer reflexionar y dar sensación de quietud, que nos hace dar las cosas por hecho.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img24",
+        "title": "Computer Space, Nolan Bushnell y Ted Dabney con Syzygy",
+        "date": "1971.00.00",
+        "desc": "Se consideró el primer videojuego arcade, el cual se vendió de forma comercial y que su funcionamiento fuera a través de monedas. Consistía en controlar a un cohete que dispara platillos voladores. Es un ordenador en grandes dimensiones que distribuye el software a varias terminales remotas, en su momento innovó por establecer este tipo de juegos, aunque no tuvo mucho éxito por su poca duración y complicación.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img25",
+        "title": "Engineering (futura Atari)",
+        "date": "1971.00.00",
+        "desc": "Atari, Inc. fue una empresa estadounidense de desarrollo de videojuegos y computadoras para el hogar fundada en 1972 por Nolan Bushnell y Ted Dabney. Atari fue responsable de la formación de la industria de los videojuegos y los videojuegos modernos. Basada principalmente en el área de Sunnyvale, California, en el centro de Silicon Valley, la compañía se formó inicialmente para crear juegos de arcade y se lanzó con Pong en 1972.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img29",
+        "title": "Nam June Paik. Global Groove",
+        "date": "1973.00.00",
+        "desc": "Un manifiesto radical sobre las comunicaciones globales en un mundo saturado de medios, presentado como un collage electrónico, un pastiche de sonido e imagen que subvierte el lenguaje de la televisión. Esta obra clave del videoarte de la era anterior a Internet sigue la impresionante corriente psicodélica que fluye entre la vanguardia y los medios de comunicación, así como entre culturas.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img30",
+        "title": "Powers of Ten, Charles y Ray Eames",
+        "date": "1977.00.00",
+        "desc": "El cortometraje muestra un juego de magnitudes en el que según pasan los segundos la cámara hace zoom in o zoom out de la escena de picnic de la que parte. Pretende ofrecer una nueva perspectiva a los habitantes de la Tierra, permitiendo la reflexión como ciudadanos de un universo donde perecemos insignificantes. La época en la que se elaboró el cortometraje supuso un gran revuelo en la industria cultural.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img31",
+        "title": "Cindy Sherman inicia su serie Untitled Film Stills",
+        "date": "1977.00.00",
+        "desc": "El proyecto de Cindy recopila unas 70 imágenes tomadas entre 1977 y 1980, sin ser una película pero con la unión de cada una de las escenas por seguir todos con un estilo de los referentes que ella admiraba en cuanto a ángulos, iluminación y dramatismo de la época. Por individual, las fotografías capturan un momento de ambigüedad en el que ella juega mientras encuadra la actuación de diversas personalidades y clichés.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img34",
+        "title": "Christo y Jean-Claude envuelven el Pont Neuf en Paris",
+        "date": "1985.00.00",
+        "desc": "Un matrimonio de artistas se dedicaban a realizar instalaciones ambientadas en la tendencia denominada Land Art, arte efímera. Tras estar 9 años negociando con Jacques Chirac, el alcalde de París del momento, les cede el permiso para poder cubrir el “Pont Neuf”. Necesitaron 40.000 metros cuadrados de tela poliamida arena, fue una obra de arte muy polémica y popular.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img42",
+        "title": "Kanagawa oki nami ura (La gran ola)",
+        "date": "1985.00.00",
+        "desc": "Kanagawa oki nami ura (traducido al castellano literalmente como “Bajo una ola en altamar en Kanagawa”) es una estampa japonesa muy famosa del pintor Katsushika Hokusai y la más reconocida de su género (ukiyo-e), publicada durante el período Edo de la historia de Japón (1831).",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img35",
+        "title": "Akira (film) Katsuhiro Otomo",
+        "date": "1988.00.00",
+        "desc": "Akira es una película de anime post-apocalíptica, animada, innovadora, revolucionaria y de ciencia ficción.   Que ofrece una visión distinta, no solo enfocada a niños sino a un público más adulto. Se sitúa en 2019 en la ciudad de Neo- Tokio, destruida tras la Segunda Guerra Mundial. Un grupo de científicos busca individuos para controlar el arma definitiva. Un residente sufre un accidente y averiguan que posee energía absoluta.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img43",
+        "title": "Rain, Steam and Speed (Lluvia, vapor y velocidad)",
+        "date": "1844.00.00",
+        "desc": "Rain, Steam and Speed es una obra del impresionismo del artista J.M.W. Turner del año 1844. Es una de sus obras maestras, pues en un marco compacto se unen el agua, la tierra, el cielo y un símbolo de industrialización hecho por el hombre, creando una atmósfera brumosa causada por una lluvia torrencial por encima de las nubes de vapor que expulsa el tren yendo a una gran velocidad.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img46",
+        "title": "E. Manet. Le déjeuner sur l’herbe (Desayuno sobre la hierba)",
+        "date": "1863.00.00",
+        "desc": "Le déjeuner sur l’herbe es un cuadro pintado por Édouard Manet (1832 -1883, famoso en la corriente realista que tuvo una gran inﬂuencia en los inicios del impresionismo ) inspirado en dos obras del Louvre : “Le Concert champêtre” y “Le jugement de Paris” .",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img47",
+        "title": "Secuencia del caballo a galope E. Muybridge.",
+        "date": "1872.00.00",
+        "desc": "Fue un experimento visual creado por Eadweard Muybridge, en el que se puede observar la secuencia de un caballo a galope. Es el precursor del cine. Se realizó con un aparato similar al zoótropo, el praxinoscopio.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img50",
+        "title": "La petite danseuse de quatorze ans (La bailarina de catorce años) E. Degas.",
+        "date": "1881.00.00",
+        "desc": "La petite danseuse de quatorze ans es una escultura creada por Edgar Degas. Fue coloreada al natural, con pelo de verdad, vestida con tutú y zapatillas de verdad, es testigo de un hiperrealismo, de un verismo llevado al extremo. Revela un Degas que fue casi un antropólogo o un naturalista. La obra fue acusada violentamente de representar a la niña de manera bestial, fue comparado con un mono o un azteca.",
+        "category": "art",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img51",
+        "title": "Obama Presidente en EEUU",
+        "date": "2012.00.00",
+        "desc": "Barack Obama fue reelegido para 4 años más de presidencia en una campaña muy disputada y obtuvo más votos de lo esperado. Eso refuerza sus ideales donde las minorías tienen mucha importancia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "quantum",
+        "title": "Sotheby vende Quantum, el primer NFT",
+        "date": "2014.00.00",
+        "desc": "Kevin McCoy minteó (acción de “publicar” o “registrar” en la blockchain) su propio token no fungible (NFT) “Quantum” el 3 de Mayo de  2014, que es considerada la primera obra de arte digital única, registrada mucho antes de que el mercado cripto de arte fuera tan conocido como lo es actualmente y tres años antes de que el término NFT fuera forjado.",
+        "category": "history",
+        "imageExtension": "gif"
+    }, 
+    {
+        "id": "img56",
+        "title": "Estallido mundial COVID",
+        "date": "2020.00.00",
+        "desc": "Los primeros casos fueron detectados en diciembre de 2019 en la ciudad china de Wuhan, es por eso que inicialmente se conoció como “neumonía de Wuhan”. La Organización Mundial de la Salud (OMS) la declaró emergencia de salud pública de importancia internacional el 30 de enero de 2020 y ﬁnalmente se reconoció como pandemia el 11 de marzo de 2020.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img62",
+        "title": "Nace SIGGRAPH",
+        "date": "1974.00.00",
+        "desc": "El SIGGRAPH és el grup d'interès en infograﬁa o computació gràﬁca de l'Association for Computing Machinery, i és també el nom de la conferència sobre aquesta mateixa àrea organitzada per la mateixa associació. Les conferències serveixen als professionals per a presentar els seus treballs d'investigació en l'àrea i als estudiants per a nodrir-se de noves idees i investigacions en el àmbit tecnològic.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img64",
+        "title": "Abre Centro Pompidou, París",
+        "date": "1977.00.00",
+        "desc": "El Centre Pompidou de París va ser creat per dos arquitectes poc coneguts en la època dels 70, Renzo Piano i Richard Rogers, els quals van fer un dels ediﬁcis més famosos y radicals del nostre temps. Aquest centre es un món al revés literalment, ja que per poder atraure visitants y que l'ediﬁci fos digne de ser un monument de la ciutat, va fer l’ediﬁci del revés, la infraestructura es triba en el exterior.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img65",
+        "title": "MTV",
+        "date": "1981.00.00",
+        "desc": "MTV(Music Television), és un canal televisiu nord-americà, de vídeos musicals, amb seu a Nova York, que funciona per subscripció. Va iniciar transmissions l'1 d'agost de 1981 amb, la primera emetent un vídeo de la banda The Buggles, Video Killed The Radio Star. Va ser llançat a l'aire el 10 de setembre de 2000, a Espanya, i es troba operat per Viacom CBS Networks EMEA, alhora propietat de Paramount Global.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img68",
+        "title": "Caída del muro de Berlín",
+        "date": "1989.00.00",
+        "desc": "La caiguda del Mur de Berlín, va ser una revolta popular que va ocórrer a la capital de la llavors Alemanya Oriental, la qual era Berlín Oriental, el 9 de novembre de 1989. On la població alemanya d'aquell llavors de manera pacíﬁca va aconseguir enderrocar el mur. Va ser un fet molt important en la història mundial pel fet que va marcar la ﬁ de la Guerra Freda, el que va ser proclamat a la Cimera de Malta tres setmanes més tard.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img69",
+        "title": "Sensation, colección Saatchi",
+        "date": "1997.00.00",
+        "desc": "La exposició inaugurada a Londres el 1997 per la Royal Academy va generar polèmica. La polèmica suscitada entre el mitjans de comunicació, les dimensions de alguns membres de la academia, les proteste contra la exposició... Van generar una gran aﬂuencia de visitants. El responsable va ser en Charles Saatchi, que va presentar al gran públic la seva col·lecció d'obres realitzades per joves artistes del país, els qual va apadrinar.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img70",
+        "title": "Deep Blue gana a Kasparov",
+        "date": "1997.00.00",
+        "desc": "IBM va inventar un ordinador que podia guanyar a jugadors professionals d’escacs anomenat Deep Blue. El 10 de febrer es va fer la primera partida contra l’ordinador, on va jugar Kasparov. La primera partida el jugador professional va perdre, però va guanyar les tres següents i empatar dos més, guanyant a Deep Blue per 4-2. En 1997, es va fer un altre enfrontament amb l’ordinador millorat, on Kasparov va perdre.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img71",
+        "title": "Abre Tate Modern, Londres",
+        "date": "2000.00.00",
+        "desc": "Tate Modern és el Museu Britànic d'Art Modern de Londres. Es troba en una antiga central elèctrica amb un total de sis plantes i un baix i guarda obres internacionals que van des de 1900 ﬁns l'actualitat. En total, té 70.000 obres d'art de 30.000 artistes diferents. Entre aquestes, es troben creacions de Pablo Picasso, Andy Warhol, Mark Rothko, Salvador Dalí i altres.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img74",
+        "title": "Atentados 9-11",
+        "date": "2001.00.00",
+        "desc": "El 11 de setembre de 2001 van succeir quatre atemptats suïcides en els Estats Units. Quatre avions van ser segrestats des de la costa est. Dos d’ells es van estavellar contra las torres bessones. El tercer avió va xocar en el Pentàgon, el Departament de Defensa dels Estats Units, mentre que l’últim es va estavellar a prop de Shanksville després que els passatgers van intentar recuperar el control de l’avió.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img75",
+        "title": "Segunda Guerra Mundial (1939-1945)",
+        "date": "1939.00.00",
+        "desc": "La Segunda Guerra Mundial fue un conflicto militar global que se desarrolló entre 1939 y 1945. En ella se vieron implicadas la mayor parte de las naciones del mundo agrupadas en dos alianzas militares enfrentadas. La guerra tendría inicio en 1939 con la invasión de Polonia por parte de Alemania y terminaría en 1945 tras la caída de Berlín a manos de la URSS. Se calcula que la guerra se llevó un total de 55 millones de vidas en todo el mundo, este fue el conflicto más grande y destructivo de la historia",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img80",
+        "title": "Nace IKEA, Ingvar Kamprad",
+        "date": "1943.00.00",
+        "desc": "En 1943 un Ingvar Kamprad de 17 años de edad, comenzó un negocio de venta de artículos por correo. Su idea era vender artículos que cubrieran diversas necesidades, a precios asequibles. Así comenzó vendiendo bolígrafos, billeteras, marcos, relojes, joyería, mesitas de noche, cosmética y medias de nailon. En 1947 expande su negocio a la venta de muebles y cuatro años más tarde publica el primer catálogo con diseños propios IKEA de muebles. Decide entonces concentrarse exclusivamente en mobiliario para el hogar.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img81",
+        "title": "Inauguración Disneyland (Anaheim, California)",
+        "date": "1995.00.00",
+        "desc": "El primer parque temático de Disney abrió sus puertas el 17 de julio de 1955. Pese a poseer más de 2.000 empleados el número de asistentes duplicó las previsiones asistiendo en total más de 35.000 personas. Este hecho puso en manifiesto todos los errores que se habían cometido durante la construcción del parque. Restaurantes que no podían abastecer la demanda, fuentes de agua averiadas y un calor que dejaba zonas del parque completamente inaccesibles hizo que los medios tacharan la inauguración como un fracaso.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img84",
+        "title": "Publicación de Designing for People, Henry Dreyfuss",
+        "date": "1955.00.00",
+        "desc": "Henry Dreyfuss fue un destacado diseñador industrial estadounidense y su mayor legado al diseño y la ergonomía fue la profunda investigación acerca de la antropometría, y sus descubrimientos, publicados en sus libros Designing for people (1955).",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img85",
+        "title": "Se acuña el término Singularidad, John von Neuman",
+        "date": "1957.00.00",
+        "desc": "El primer uso del término «singularidad» se realizó en 1957 por el matemático y físico húngaro John von Neumann. Ese año, en una conversación con von Neumann, Stanislaw Ulam describió los avances cada vez más acelerados de la tecnología y los cambios en el modo de la vida humana. Da la apariencia de que se acerca una singularidad esencial en la historia más allá de los asuntos humanos, y tal como los conocemos: “El cada vez más rápido progreso tecnológico y los cambios en el modo de la vida humana, dan la apariencia de que se acerca alguna singularidad esencial en la historia de la raza humana más allá de sus propios asuntos tales como los conocemos, no puede seguir.”",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img88",
+        "title": "Abre el Museo S R Guggenheim, NY",
+        "date": "1959.00.00",
+        "desc": "Es sede permanente de una colección renombrada y en continua expansión de obras impresionistas y post-impresionistas, así como de arte moderno temprano y arte contemporáneo. De la misma manera, el museo organiza exposiciones temporales especiales a lo largo del año. Este museo fue establecido por la Fundación Solomon R. Guggenheim en 1939, inicialmente llamado el 'Museo de Pintura Abstracta', bajo la supervisión de su primer director, la artista abstracta Hilla von Rebay. El museo tomó su nombre actual, poco después de la muerte del fundador de la Fundación, Solomon R. Guggenheim, en 1949.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img89",
+        "title": "Nace el festival de cine de animación de Annecy",
+        "date": "1960.00.00",
+        "desc": "El festival es una competición entre películas de animación (de técnicas diversas: dibujos animados, Stop motion, etc.) clasificadas en distintas categorías: largometrajes,cortometrajes, películas de encargo (producidas para ser emitidas en la televisión o con fines publicitarios), películas de estudiantes, películas producidas para Internet (desde 2002). Durante toda la duración del festival, además de las películas participantes que se proyectan en distintos cines de la ciudad, tiene lugar una proyección nocturna al aire libre sobre el Pâquier, en el centro de la ciudad, frente al lago y a las montañas. Según el tema del festival, se proyectan películas clásicas o modernas en pantalla gigante.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img93",
+        "title": "Llegada del hombre a la luna",
+        "date": "1969.00.00",
+        "desc": "La nave Apolo 11 se envió al espacio el 16 de julio y realizaría su alunizaje el 20 de julio de ese mismo año. La tripulación del Apolo 11 estaba constituida por Neil A. Armstrong, Edwin E. Aldrin Jr., y Michael Collins. La misión sería seguida de forma internacional y sería el fin de la carrera espacial que había tenido USA contra la URSS, siendo esta, la época donde más seguimiento tuvo la exploración espacial en toda la historia.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img94",
+        "title": "Revolución Rusa",
+        "date": "1917.00.00",
+        "desc": "La Revolución Rusa se compone de los sucesos entre febrero y octubre de 1917 que llevaron al fin del régimen zarista y a la instauración de los leninistas republicanos. A causa de la hambruna y las recientes guerras, el pueblo ruso se irguió contra todos los que estaban en el poder. Con la llegada de Lenin y después de varias batallas, el 25 de octubre de 1917 se tomó el Palacio de Invierno y, después de elecciones no democráticas, Lenin llegó al poder.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img97",
+        "title": "Principio de la incertidumbre (W. Heisenberg)",
+        "date": "1927.00.00",
+        "desc": "Werner Heisemberg fue un físico alemán que formuló el principio de la incertidumbre. Este es un principio que en física cuántica se refiere a que no se puede determinar, con precisión y de forma simultánea, a varios pares de variables físicas, como, por ejemplo, la posición y el movimiento lineal de un objeto.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img98",
+        "title": "Exposición universal, Barcelona",
+        "date": "1929.00.00",
+        "desc": "La exposición universal de Barcelona del año 1929 fue la causa de la modernización de la ciudad, así como la construcción de nuevos espacios y la difusión de una nueva imagen moderna de la ciudad. La exposición tuvo lugar en la montaña de Montjuïc, que sirvió como centro de ocio, cultura y deporte, y tuvo tres temáticas diferentes: la industria, el arte y el deporte.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img102",
+        "title": "Abre MoMA, NY",
+        "date": "1929.00.00",
+        "desc": "En noviembre de 1929, abrió sus puertas por primera vez el Museo de Arte Moderno de Nueva York, conocido como el MoMA. Inaugurado por 3 mujeres muy importantes. Se ha convertido en uno de los museos de arte moderno más relevantes del mundo, situado en Manhattan, Nueva York. Alberga piezas tales como La noche estrellada de Vincent Van Gogh, Las señoritas de Avignon de Pablo Picasso, La persistencia de la memoria de Salvador Dalí, etc.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img101",
+        "title": "Voto para la mujer en España",
+        "date": "1933.11.21",
+        "desc": "21 de noviembre de 1933, fotografía en la que aparecen cuatro mujeres, Dos de ellas sujetan orgullosas una papeleta junto a una urna y las otras dos posan sonrientes. Fue un momento histórico: la mujer acababa de votar por primera vez en la historia de este país. Fue un camino muy duro para conseguirlo, ya que hubo la oposición de muchos sectores de la sociedad a los que ellas les pedían votar, que estaban en contra. Margarita Nelken es una manifestante destacable de esta revolución.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img108",
+        "title": "Guerra Civil Española (1936-1939)",
+        "date": "1936.00.00",
+        "desc": "La Guerra Civil Española fue el conflicto más sangriento que Europa occidental había experimentado desde el final de la Primera Guerra Mundial. Se llevó a cabo porque Emilio Mola y Francisco Franco iniciaron una sublevación para derrocar a la República elegida democráticamente. Casi 200,000 personas murieron por asesinatos y violencia. Huyeron muchos refugiados, sobre todo a Francia, donde muchos de ellos fueron prisioneros.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img109",
+        "title": "Exp univ París/Pabellón español de J M Sert y Luis Lacasa/Guernika, P. Picasso",
+        "date": "1937.00.00",
+        "desc": "La exposición universal de París marca el estreno de la obra de Guernica y de la participación de España en la Exposición Internacional de París de 1937, hay que destacar que España se encontraba en plena Guerra Civil. Los arquitectos Josep Lluís Sert y Luis Lacasa proyectaron el espacio donde se expuso la obra de Guernica por primera vez.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img113",
+        "title": "Exposición universal, NY",
+        "date": "1939.00.00",
+        "desc": "La exposición universal de Nueva York adquirió el lema The World of Tomorrow por el contexto en el que estaba. Estados Unidos acababa de sufrir las consecuencias de la Gran Depresión y el mundo se encontraba a punto de estallar en la Segunda Guerra Mundial. Más de 50 países participaron y la exposición sirvió para levantar un poco el ánimo y defender la unión de los países y culturas.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img114",
+        "title": "Revolución Francesa",
+        "date": "1789.00.00",
+        "desc": "Període de la història de França que provocà la caiguda de l'Antic Règim i la presa del poder polític per part de la burgesia. Va ser un conﬂicte social i polític, amb diversos períodes de violència, que va convulsionar França i, per extensió de les seves implicacions, a altres nacions d'Europa que enfrontaven partidaris i opositors del sistema conegut com l'Antic Règim.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img118",
+        "title": "Exposición universal, Londres",
+        "date": "1851.00.00",
+        "desc": "La Gran Exposició del 1851 va suposar la conquesta d'un nou públic per a l'espectacle modern. L'ediﬁci construït per acollir la selecció industrial de les nacions participants va consagrar una mirada nova, i no exclusiva per a les classes altes. Una sèrie de condicionants, com van ser la revolució en els transports, la bonança econòmica, les conquestes socials i la reducció del preu d'entrada, van permetre que les classes treballadores, agricultors i obrers, s'incorporessin com a públic. Amb això, un conjunt nombrós d'estrangers van arribar ﬁns a Londres per visitar el Crystal Palace.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img119",
+        "title": "Salón de los rechazados, París",
+        "date": "1863.00.00",
+        "desc": "Exposició que incideix de manera decisiva en dos dels esdeveniments més importants de la història de l'art: el naixement de l'impressionisme i l'arribada de la modernitat. El segle XIX, els artistes que a París esperen tenir una carrera promissòria els hi és molt complicat. El 1863, però, tots aquells artistes rebutjats van poder exposar les seves obres, per ser jutjats pel públic i la crítica, al saló contigu a l'oﬁcial.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img122",
+        "title": "Psicoanálisis (S. Freud)",
+        "date": "1895.00.00",
+        "desc": "La psicoanàlisi és una teoria sobre el funcionament de la ment humana i una pràctica terapèutica. Va ser fundat per Sigmund Freud entre 1885 i 1939 i continua sent desenvolupat per psicoanalistes per tot el món. La psicoanàlisi té quatre àrees d'aplicació: Teoria del funcionament de la ment humana, Mètode de tractament per als problemes psíquics, Mètode de recerca, Forma de veure i analitzar els fenòmens culturals i socials com la literatura, l'art, les pel·lícules, moviments polítics i grupals.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img123",
+        "title": "Exposición universal, París",
+        "date": "1900.00.00",
+        "desc": "Tenia una superfície de 120 hectàrees, va ser visitada per 50.860.801 persones, hi van participar 58 països. L'exposició oferia als visitants una sèrie d'atraccions, com el Palau del Vestit, per als amants dels viatges; el Palau de l'Òptica, per als que preferien contemplar els miracles de la tècnica; el Palau de la Dona, on s'oferia una espectacular síntesi de la situació de la dona al segle; un basar assortit i un saló on es podia escoltar el piano i un teatre.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img126",
+        "title": "Teoría de la Relatividad (A. Einstein)",
+        "date": "1905.00.00",
+        "desc": "El físic Einstein va utilitzar la seva imaginació en lloc de les matemàtiques per elaborar la seva mítica equació. La teoria de la relativitat d'Albert Einstein és famosa per la seva predicció de fenòmens força estranys, però reals, com l'envelliment més lent dels astronautes respecte de les persones que vivim a la Terra i el canvi en la forma dels objectes a altes velocitats.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img127",
+        "title": "Revolución Mexicana",
+        "date": "1910.00.000",
+        "desc": "Etapa de la història de Mèxic que comprèn desde la caiguda de Porfirio Díaz fins a la consolidació del moviment revolucionari amb la presidència de V.Carranza. Va tenir un fort impacte en els treballadors socials i en l'agricultura, i la constitució que es va derivar d'aquest moviment va ser la primera del món que va reconèixer les garanties socials i els drets laborals col·lectius.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img130",
+        "title": "Primera Guerra Mundial (1914-1918)",
+        "date": "1914.00.00",
+        "desc": "La Primera Guerra Mundial va marcar el primer gran conflicte internacional del segle XX. L'assassinat de l'arxiduc Francisco Fernando, hereu de la corona austrohongaresa, i de la seva esposa, l'arxiducesa Sofia, a Sarajevo el 28 de juny de 1914, va començar a les hostilitats, que van començar l'agost de 1914, i van continuar en diversos fronts durant els quatre anys següents.",
+        "category": "history",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img133",
+        "title": "Mavica, primera cámara digital comercializada, SONY",
+        "date": "1981.00.00",
+        "desc": "Mavica (Magnetic Video Camera) era una marca de cámaras de Sony que usaba discos extraíbles como el principal medio de grabación. En agosto de 1981, Sony dio a conocer un prototipo de Sony Mavica como la primera cámara fija electrónica del mundo. Al igual que con todas las cámaras de Mavica hasta principios de la década de 1990 (incluidos los modelos posteriores vendidos comercialmente), este primer modelo no era digital. Su sensor CCD produjo una señal de vídeo analógica en formato NTSC con una resolución de 570 × 490 píxeles. Los discos Mavipak 2.0 (más tarde adoptados en toda la industria como el Video Floppy y etiquetados como 'VF') se usaron para escribir 50 fotogramas en pistas en el disco. Las imágenes se vieron en una pantalla de televisión. Esta invención fue pionera de la era digital.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img136",
+        "title": "Compact Disc",
+        "date": "1982.00.00",
+        "desc": "Los primeros prototipos del disco compacto fueron desarrollados por Philips y Sony. El sistema óptico fue desarrollado por Philips mientras que la lectura y codificación digital corrió a cargo de Sony. El producto fue lanzado a la industria comercial en junio de 1980, adhiriéndose a 40 compañías internacionales mediante la obtención de las licencias para la producción de reproductores y CD's. Fue en ese mismo año cuando el director de la orquesta Herbert Von Karajan, convencido del gran valor de los discos compactos inició su promoción durante el Festival de Salzburgo. Fue en ese momento cuando se inicia el éxito y el aumento de demanda de estos nuevos formatos. La Sinfornia Alpina, de Richard Strauss, los vales de Frederic Chopin interpretados por el pianista Claudio Arrau y el álbum The Vistors de ABBA fueron los primeros títulos grabados en discos compactos en Europa.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img139",
+        "title": "Apple Macintosh, primer Mac",
+        "date": "1984.00.00",
+        "desc": "El primer Macintosh, el Macintosh 128K, se anunció a la prensa en octubre de 1983, seguido por un dosier de 18 páginas incluidas en varias revistas en diciembre del mismo año. El 22 de enero de 1984 se presentó con el famoso anuncio de televisión dirigido por Ridley Scott «1984», que se emitió en el tercer cuarto de la XVIII Super Bowl, su producción tuvo un coste de US$1 500 000 ($3 736 547 en 2022) y a día de hoy se considera un hito y una obra maestra. El comercial «1984» utiliza una heroína sin nombre para representar la llegada de los Macintosh (indicado por un cuadro al estilo de Picasso de la computadora Macintosh de Apple en su camiseta blanca) como un medio de salvar a la humanidad de la «conformidad» de los intentos de IBM con su producto PC para dominar la industria de la informática. El anuncio alude a la novela de George Orwell, 1984, que describe un futuro distópico gobernado por un televisado «Gran Hermano».",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img140",
+        "title": "Impresión 3D. Charles Hull",
+        "date": "1986.00.00",
+        "desc": "Chuck Hull desarrolló un sistema prototipo basado en el proceso llamado como estereolitografía, en el que se añaden capas mediante el curado de fotopolímeros con láseres de rayos ultravioleta. Hull definió el proceso como un «sistema para generar objetos tridimensionales mediante la creación de un patrón transversal del objeto a formar»,8 9 pero esto ya había sido inventado por Kodama. La contribución de Hull fue el diseño del formato de archivo STL (STereoLithography) ampliamente aceptado en la actualidad por el software de impresión 3D, así como las estrategias digitales de corte y relleno de volúmenes comunes a muchos procesos actuales.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img143",
+        "title": "1991 www (pública) 1989 uso científico",
+        "date": "1991.00.00",
+        "desc": "En 2016 menos del 5% de la población de Cuba se conecta a internet, uno de los inventos más revolucionarios en las comunicaciones de la historia. La interconexión de computadoras se había dado desde la década de 1970, pero fue hasta que el inglés Tim Barners-Lee diseñó un lenguaje común que se dieron las bases del internet que usa el mundo actual. World Wide Web (red mundial) es su nombre, de ahí que el prefijo de miles de millones de páginas en el mundo sea www.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img146",
+        "title": "Playstation 1 (Japón)",
+        "date": "1994.00.00",
+        "desc": "Se considera la videoconsola más exitosa de la quinta generación tanto en ventas como en popularidad. Además de la original, en el año 2000 se lanzó la PSone (también llamado modelo slim). Tuvo gran éxito al implantar el CD-ROM dentro de su hardware a pesar de que otras compañías como SEGA (Sega CD), Panasonic (3DO), Phillips (CD-i), SNK (Neo Geo CD), NEC (Super CD-ROM) y Atari (Atari Jaguar) ya lo habían empleado. Dichas compañías tuvieron poco éxito al utilizar el CD-ROM como soporte para almacenar juegos. Se estima que Sony pudo vender 102,4 millones de consolas en diez años. La consola fue retirada oficialmente del mercado el 23 de marzo de 2006.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img147",
+        "title": "DVD (Digital Versatile Disc)",
+        "date": "1995.00.00",
+        "desc": "A comienzo de los años 1990, se estaban desarrollando dos estándares de almacenamiento óptico de alta densidad: -el multimedia compact disc (MMCD), apoyado por Philips y Sony; -el super density (SD), apoyado por Toshiba, Time Warner, Panasonic, Hitachi, Mitsubishi Electric, Pioneer, Thomson y JVC. Philips, Sony y Panasonic se unieron, y acordaron con Toshiba adoptar el SD, pero con una modificación: la adopción del EFM Plus de Philips, creado por Kees Immink, que a pesar de ser un 6% menos eficiente que el sistema de codificación de Toshiba (de ahí que la capacidad sea de 4,7 GB en lugar de los 5 GB del SD original), cuenta con la gran ventaja de que EFM Plus posee gran resistencia a los daños físicos en el disco, como arañazos o huellas. El resultado fue la creación del Consorcio del DVD, fundado por las compañías anteriores, y la especificación de la versión 1.5 del DVD.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img150",
+        "title": "Google",
+        "date": "1998.00.00",
+        "desc": "Larry Page y Sergey Brin comenzaron Google como un proyecto universitario en enero de 1996 cuando ambos eran estudiantes de posgrado en ciencias de la computación en la Universidad de Stanford. El nombre original del buscador era BackRub, pero en 1997 los fundadores deciden cambiar el nombre a Google inspirados por el término matemático «gúgol» que se refiere al número 10 elevado a la potencia de 100, en referencia a su objetivo de organizar la enorme cantidad de información en la Web. Page y Brin fundan, el 4 de septiembre de 1998, la compañía Google Inc.,  que estrena en Internet su motor de búsqueda el 27 de septiembre siguiente (considerada la fecha de aniversario). Contaban con un armario lleno de servidores (unos 80 procesadores), y dos routers HP.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img153",
+        "title": "Televisión (emisión Olimpiadas Berlín)",
+        "date": "1936.00.00",
+        "desc": "En los juegos olímpicos de 1936 organizado por el régimen nazi alemán, se programaron 72 horas de televisión en directo, con total de 150.000 espectadores repartidas en salas de visionado instaladas en los puestos de Correo Alemán en las ciudades de Berlín y Potsdam. Es considerada la primera transmisión masiva de televisión en directo, creando una estrategia comunicacional uniendo el deporte, la televisión y la política como sistema de propaganda.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img154",
+        "title": "Televisión a color",
+        "date": "1951.00.00",
+        "desc": "El 25 de junio de 1951, CBS fué el primer programa comercial que se emitió en una televisión en color. Desafortunadamente, casi nadie llegó a verlo ya que la mayoría de la gente sólo tenía televisores en blanco y negro. Este primer programa fue llamado “Premiere” y contó con la participación de grandes celebridades los cuales presentaron sus propios espectáculos. Este primer programa sólo llegó a cuatro ciudades: Boston, Filadelfia, Baltimore y Washington, D.C. Independientemente de que sólo se retransmitió en cuatro ciudades tuvo un éxito abismal.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }, 
+    {
+        "id": "img157",
+        "title": "Cinerama",
+        "date": "1952.00.00",
+        "desc": "Cinerama es el nombre comercial que conlleva el proceso de filmar con tres cámaras a la vez y proyectadas por medio de tres proyectores de 35mm trabajando en sincronía, dentro de una imagen panorámica curvilínea, haciendo que el nivel de detalle y el tamaño incremente. Este concepto surgió porque en los años 50, la televisión cada vez estaba más presente en sus vidas, y por lo tanto Hollywood decidió encontrar una forma de volver a atraer el público a las salas de proyección. Así es como aparecieron este tipo de salas ya que las pequeñas pantallas que tenía el público no les podrían ofrecer este concepto. La primera película realizada con todas estas características fué “This is Cineramas, el cual fue recibida con mucho entusiasmo.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img36",
+        "title": "Metropolis, Fritz Lang",
+        "date": "1927.00.00",
+        "desc": "Metrópolis es un largometraje mudo inspirado en una novela de 1926 escrita porThea von Harbou, quien escribió con Lang el guion. Esta obra se caracteriza por su modernidad visual y su tradicionalismo ideológico. Este cortometraje está ambientado en 2026 en una gran ciudad futurista que muestra una sociedad en crisis evidenciada por dos clases sociales, la dominante y la trabajadora. La situación afrontada socialmente en Métropolis, se inspira en los desafíos que habitaban en Berlín en los años ‘20.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img37",
+        "title": "El Hombre de la cámara, Z Vertov",
+        "date": "1929.00.00",
+        "desc": "El hombre de la cámara es una película muda documental soviética de 1929 sin trama ni actores, dirigida por Dziga Vértov. El director nos muestra en este film con tintes de documental la vida del día a día en la ciudad de San Petersburgo. A través de su cámara, que actúa como el propio ojo, Vertov capta la esencia del escenario, queriendo plasmar, eso sí, las relaciones sociales de los ciudadanos a través de un análisis marxista.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img40",
+        "title": "Disney. Snow White and the Seven Dwarfs (Blancanieves y los siete enanitos), David Hand",
+        "date": "1937.00.00",
+        "desc": "Blancanieves y los siete enanitos es el primer largometraje de animación producido por Walt Disney y el primero incluido en el canon de “Clásicos de Walt Disney”. Se estrenó el 21 de diciembre de 1947 en el Carthay Circle Theatre de Hollywood.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img39",
+        "title": "E. Hopper. Nighthawks (Noctámbulos)",
+        "date": "1942.00.00",
+        "desc": "Es un cuadro del pintor estadounidense Edward Hopper en el cual se ve a cuatro personas en un diner urbano por la noche. El título de la obra, “Nighthawk” (búho de la noche), se refiere a alguien que trasnocha. La escena se inspiró en un dinner de Manhattan.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img41",
+        "title": "Meshes in the Afternoon (Un falso despertar), Maya Deren",
+        "date": "1943.00.00",
+        "desc": "Este cortometraje, es definido como un relato onírico, que tiene como tema principal la búsqueda interior, en este caso, de una mujer. El film trata de las realidades interiores y como el subconsciente las desarrolla, para convertirlo en una experiencia emocional. Este proceso está basado en una lógica dramática, que debido a sus temas intangibles, se puede ver únicamente en el cine y poesía.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img49",
+        "title": "Saul Bass títulos The Man With the Golden Arm (El hombre con el brazo de oro)",
+        "date": "1955.00.00",
+        "desc": "El hombre con el brazo de oro, es una película americana de 1955, dirigida por Otto Preminger. La historia trata sobre Frankie Machine, un hombre con talento musical, sale de la cárcel y, además, consigue dejar la heroína. Su principal problema será encontrar un medio de vida honrado y evitar las drogas y el juego. El cartel, está hecho por Saul Bass, considerado el rey de los carteles de crédito.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img52",
+        "title": "Andy Warhol, film Sleep (Sueño)",
+        "date": "1963.00.00",
+        "desc": "“Sleep” (El Sueño) es una película del año 1963 dirigida por el artista estadounidense Andy Warhol, que consiste en secuencias de tomas largas de imágenes de su amante John Giorno durmiendo durante cinco horas y 20 minutos.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img53",
+        "title": "Yoko Ono, Apple",
+        "date": "1966.00.00",
+        "desc": "Apple es una obra de arte conceptual de 1966 del artista japonés Yoko Ono. La obra está clasificada como Arte Temporal. En 1966, Ono describió la '... emoción de ver la manzana en descomposición y la decisión de reemplazarla o simplemente pensar en la belleza de la manzana después de que se haya ido'.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img532",
+        "title": "P. Picasso. Les demoiselles d’Avignon (Las señoritas de Avignon)",
+        "date": "1907.00.00",
+        "desc": "Las señoritas de Avignon, pintadas por Pablo Picasso. En la obra se muestran 5 prostitutas de las calles de Barcelona, donde abundaban los burdeles. Lo que se buscaba era romper con el realismo modificando tanto la profundidad espacial como la anatomía humana, esto lo hace convirtiendo los cuerpos de las mujeres en planos angulares. A causa del impacto de esta obra apareció el movimiento cubista.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img57",
+        "title": "Manifiesto Futurista (F T Marinetti)",
+        "date": "1909.00.00",
+        "desc": "El manifiesto futurista, escrito por Filippo Tommaso Marinetti, fue el primer documento donde se encontraban las bases principales del movimiento futurista. A partir de la publicación de este documento se dió la iniciación del movimiento futurista.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img60",
+        "title": "M. Duchamp, Fuente",
+        "date": "1917.00.00",
+        "desc": "Esta obra de Duchamp fue un grito de protesta de rechazo a la comunidad artística internacional. Debido a esto creó a través de un urinario la primera obra de arte conceptual buscando la utilización de objetos ya existentes que normalmente no se consideran artísticos, dotándolos de un nuevo significado.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img61",
+        "title": "Manifiesto Dada (T Tzara)",
+        "date": "1918.00.00",
+        "desc": "El manifiesto Dada, escrito por Tristan Tzara, fue el primer documento donde se hablaba del movimiento dadaísta en el año 1918. El documento fue publicado en el número 3 de la revista Dada de Zurich. Este documento fue el más significativo y explícito en cuanto a mostrar las intenciones del movimiento.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img611",
+        "title": "C.F. Friedrich. Der Wanderer über dem Nebelmeer (El caminante sobre un mar de nubes)",
+        "date": "1818.00.00",
+        "desc": "El caminante sobre un mar de nubes, pintado por Caspar David Friedrich. Esta obra pintada al óleo fue en la época una gran representación del romanticismo. Vemos la representación de un viajero, reconocido como el propio Friedrich. Este se encuentra en lo alto de una montaña mirando de espaldas un mar de nubes, ubicado concretamente en un paisaje de la Suiza de Sajonia.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img612",
+        "title": "Marcel Duchamp. Le grand verre (El gran vidrio)",
+        "date": "1923.00.00",
+        "desc": "Esta obra creada por Marcel Duchamp en el 1923 consiste en un vidrio visible por ambas partes en el cual se han ido situando de manera específica todo tipo de elementos con tal de representar la tensión sexual. En la parte superior vemos las interacciones enigmáticas de la novia (en un estado de deseo), y en la parte inferior los solteros rodeados de elementos complejos. En la obra vemos el movimiento dadaísta por el azar, aunque también vemos el estudio de la perspectiva, la matemática y un trabajo artesanal. La obra quedó como finalizada hasta cuando el cristal se rompió.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img613",
+        "title": "Manifiesto Surrealista (A Bretón)",
+        "date": "1924.00.00",
+        "desc": "Originalmente redactado como un prefacio para el libro Poisson soluble, cobró vida e importancia propias, más tarde junto a Paul Éluard escribió después un Segundo manifiesto del surrealismo. Más tarde se unieron justo a este manifiesto el texto anteriormente mencionado y algunos fines posteriores que formaron el libro publicado bajo el título Manifiestos del surrealismo. En el manifiesto surrealista Breton presenta la escritura automática, la reivindica y levanta como expresión fundamental entre los autores del movimiento porque sería la forma en que realmente se expresa el pensamiento sin barreras, al tiempo que favorece el despliegue de la imaginación.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img614",
+        "title": "Lotte Reiniger. Die Abenteuer des Prinzen Achmed.",
+        "date": "1926.00.00",
+        "desc": "Las aventuras del príncipe Achmed (Die Abenteuer des Prinzen Achmed) es una película animada de larga duración. Es el largometraje animado más antiguo que se conserva. Se realizó con la técnica de animación con siluetas que Reiniger había inventado, consiste en manipular recortes de cartón y láminas finas de plomo bajo una cámara. La técnica que empleó para la cámara es similar a las sombras del Wayang. La película original estaba coloreada.",
+        "category": "art",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img199",
+        "title": "SAGE (Semi Automatic Ground Environment IBM)",
+        "date": "1958.00.00",
+        "desc": "NORAD durante la Guerra Fría. El propósito de este sistema era expandir la defensa aérea de EE.UU. utilizando la tecnología de radares desarrollada por el MIT durante la Segunda Guerra Mundial. Cada centro tenía una computadora digital de gran escala que había evolucionado de la Whirlwind experimental del MIT. Fue el programa de computación en tiempo real más grande de la época y automatizó el flujo y procesamiento de información, presentando datos a 100 estaciones de operadores, y proveyendo información de control a los sistemas de armamento.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img200",
+        "title": "IMAX",
+        "date": "1970.00.00",
+        "desc": "IMAX es un formato de cinta cinematográfica y un estándar de proyección cinematográfica creado por la compañía canadiense IMAX Corporation y desarrollado por Graeme Ferguson, Roman Kroitor, Robert Kerr, y William C. Shaw. IMAX tiene la capacidad de grabar y mostrar imágenes de mucho más tamaño y resolución que los sistemas de películas fotográficas convencionales. Desde el 2002, algunas películas se han convertido, o se han mejorado, a formato IMAX para mostrarse en salas de cines preparadas a tal efecto, así como muchas desde entonces se han filmado en ese formato.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img205",
+        "title": "JVC lanza el VHS",
+        "date": "1976.00.00",
+        "desc": "En junio de 1976, JVC y Matsushita (Panasonic) lanzan al mercado la cinta de VHS. Este tipo de cinta fue desarrollada en la década de 1970 por JVC. El VHS fue lanzado para competir con el único sistema doméstico del mercado para aquel entonces, el Betamax de Sony, también fabricado bajo licencia por Sanyo. El VHS consiguió popularizarse y convertirse en estándar durante más de quince años gracias a una mejor estrategia de comercialización. Tuvo un sistema de licencias de fabricación más flexible que el de Sony y supieron conocer mejor las necesidades de los usuarios, ofreciendo desde el principio un mayor tiempo de grabación, de dos horas, frente a sólo una hora de los primeros aparatos Beta.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img206",
+        "title": "Atari 2600 primera consola de juego",
+        "date": "1977.00.00",
+        "desc": "La Atari 2600 es una videoconsola lanzada al mercado en 1977 bajo el nombre de Atari VCS (Video Computer System), convirtiéndose en el primer sistema de videojuegos en tener gran éxito, e hizo popular los cartuchos intercambiables. En 1982, tras el lanzamiento de la Atari 5200, adoptó su nombre final basado en el número de catálogo que la identificaba (CX2600). Esta consola fue un gran éxito y logró que durante los años 1980 «Atari» fuese sinónimo de videojuegos. Se vendía acompañada de dos joysticks, dos controles tipo paddle y el juego Combat desde 1977 hasta 1983, después, se comercializó con dos controles, y con o sin cartucho de juegos dependiendo del paquete.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img215",
+        "title": "Rayos X",
+        "date": "1895.00.00",
+        "desc": "En 1895 Wilhelm Conrad Röntgen, un científico alemán, descubrió una radiación capaz de penetrar cuerpos opacos. Debido a su origen desconocido en aquella época, le pusieron el nombre de rayos X. Los rayos X no son visibles a nuestros ojos, pero producen imágenes visibles cuando usamos placas fotográficas o detectores especiales para ello. La mayoría de las aplicaciones de los rayos X, son aplicaciones médicas; para realizar radiografías, angiografías o tomografías computarizadas. El uso de esta técnica se ha extendido también a la detección de fallos en metales o análisis de pinturas.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img216",
+        "title": "Rotoscopia",
+        "date": "1915.00.00",
+        "desc": "En 1917, Max Fleischer inventó la rotoscopia, con lo que cambiaría la historia de la animación para siempre. Este aparato proyectaba una película real sobre una mesa, permitiendo dibujar los personajes ficticios basándose en los reales. El invento proyectaba una imagen sobre el escritorio transparente y sobre ese se dibujaba frame a frame al personaje realizando una acción. Fue un descubrimiento tan innovador, que incluso la compañía de Disney la usó para sacar la película de “Blancanieves y los siete enanitos”. Este invento impulsó en gran medida el mundo de la animación en su momento.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img219",
+        "title": "Radio (Emisiones públicas)",
+        "date": "1920.00.00",
+        "desc": "Fue en el 20 de agosto de 1920 cuando se empezó a retransmitir el primer programa radiofónico de entretenimiento, concretamente en Michigan, Estados Unidos. Este programa se transmitió a través de la frecuencia 950 AM, y ese mismo día se realizaron unas 1920 emisiones de prueba para comprobar que el equipo era capaz de realizar los servicios regulares. De este modo, fue como la WWJ se convirtió en la primera radio emisora del mundo que empezó a transmitir de manera exitosa.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img220",
+        "title": "Leica, la primera cámara de 35mm",
+        "date": "1925.00.00",
+        "desc": "Gracias al tamaño pequeño de la cámara y también al ser barata, hizo que las fotografías se popularizaron. De esta manera se unieron a la fotografía muchos fotógrafos profesionales y aficionados nuevos. Inventada por Oskar Barnack, jefe del departamento de óptica de Ernst Leitz, compañía alemana dedicada a la fabricación de binoculares. Esta era una cámara que no necesitaba de un trípode para ser sostenida.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img223",
+        "title": "Cine sonoro, The Jazz Singer",
+        "date": "1927.00.00",
+        "desc": "Este fue el primer largometraje con sonido sincronizado. Dirigida por Alan Crosland en 1927. Esta película fue considerada una obra cultural, histórica y estéticamente significativa. Para su realización utilizaron el Vitaphone, el último sistema analógico de sonido sobre disco y que fue ampliamente utilizado. Para su creación, la banda sonora no se imprime directamente en la película, sino que se hacía por separado.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img224",
+        "title": "Technicolor",
+        "date": "1932.00.00",
+        "desc": "Se trata de un proceso de cine en el que una cámara de tres colores (verde, azul y rojo) fue introducida al mundo del cine. Sistema creado por Herbert Kalmus, fundador de la empresa Technicolor. Fue la primera cámara capaz de capturar colores nítidos y vibrantes, que luego eran recombinados en el momento de la impresión. A través del prisma se dividía por una parte el verde y por otra el rojo y el azul.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img227",
+        "title": "Multiplano (patente)",
+        "date": "1933.00.00",
+        "desc": "El multiplano fue inventado por Ub Iwerks y creado por Walt Disney. Es un tipo especial de cámara de vídeo que se emplea en la animación tradicional que pretendía crear la tridimensionalidad en dibujos en dos dimensiones. Divide cada fotograma en varios planos para que los paisajes y personas dieran la sensación de estar representadas en tres dimensiones.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img228",
+        "title": "Kodachrome",
+        "date": "1935.00.00",
+        "desc": "Es un tipo de emulsión fotográfica que fue referente a la hora de producir imágenes con color. Además, Eastman Kodak fué quien introdujo la película analógica Kodachrome (película destinada a convertirse en la primera película de color), la cual marcó toda una época en la fotografía. La primera vez que se utilizó el nombre de Kodachrome fue por John Capstaff en 1915. Durante muchos años, se usó tanto en fotografía como en cine.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img232",
+        "title": "Panorama",
+        "date": "1799.00.00",
+        "desc": "Robert Barker ideó un sistema mecánico de perspectiva, el cual, a raíz de la visión de la ciudad que obtuvo desde la colina de Calton Hill, le llevó a sugerir por primera vez la idea de panorama, nombre que Barker da a su invento en 1791. Después de este primer panorama de Edimburgo, Robert Barker pintó un segundo panorama de la visión de Londres desde Albion Mills, el cual fue exhibido en 1792.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img233",
+        "title": "Diorama",
+        "date": "1822.00.00",
+        "desc": "Un diorama es un conjunto de materiales o elementos en tres dimensiones que conforman una escena de la vida real. Se sitúan delante de un fondo curvado, pintado de forma tal que simule un entorno realista y con los efectos de iluminación se completa la escena. El término fue acuñado por Louis Daguerre en 1822, el mismo año que presentaba en París dos dioramas: El valle de Sarnen y La Chapelle de la Trinité dans l'Église de Canterbury.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img234",
+        "title": "Zoótropo",
+        "date": "1834.00.00",
+        "desc": "William George Horner en 1834 creó el zootropo, que pasó a ser un juguete muy popular en la época y uno de los avances hacia la aparición del cine. La máquina consistían en un tambor circular con algunos cortes por dónde el espectador debía mirar los dibujos al girarlo, estos dibujos dispuestos en tiras darían la ilusión de movimiento al superponerse visualmente.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img237",
+        "title": "Fotografía",
+        "date": "1839.00.00",
+        "desc": "Louis Daguerre patentó el daguerrotipo, primer procedimiento que comprende una etapa de revelado. Una placa de plata recubierta de una fina capa de yoduro de plata era expuesta en la cámara oscura y luego sometida a la acción de vapores de mercurio que provocaban la aparición de la imagen.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img238",
+        "title": "Tubo de oleo",
+        "date": "1841.00.00",
+        "desc": "El tubo de pintura fue inventado en 1841 y por primera vez fue posible transportar y preservar el producto gracias al tubo con un tapón. Gracias a este envase fue posible pintar cuadros en la naturaleza, el mismo Renoir dijo que sin los colores en tubos, no hubieran existido ni grandes pintores como Cézanne, Monet, Pissaro o Sisley, ni el Impresionismo.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img239",
+        "title": "Cronofotografía",
+        "date": "1882.00.00",
+        "desc": "Antigua técnica fotográfica de la era victoriana que capta e imprime el movimiento de diversos fotogramas, estos fotogramas eran ordenados más tarde para crear una animación al pasarlo de forma rápida.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    },
+    {
+        "id": "img240",
+        "title": "Cinematógrafo",
+        "date": "1895.00.00",
+        "desc": "Era una invención de parte de los hermanos Lumiere capaz de grabar y proyectar imágenes en movimiento. Fue patentado a finales del siglo XIX y fue la primera máquina capaz de filmar y proyectar imágenes en movimiento. A lo largo de los años se fue perfeccionando para mejorar la calidad de imagen.",
+        "category": "tech",
+        "imageExtension": "jpg"
+    }
+]

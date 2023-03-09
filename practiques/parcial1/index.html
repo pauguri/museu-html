@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Pràctica Parcial</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="https://www.citm.upc.edu/" target="_blank"><img src="./img/logo_citm.png" alt="logo citm"></a>
+            <div class="tel-icon">
+                <a href="tel:931120367" target="_blank"><img src="./img/icon-telefono.svg" alt="telefono"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <h1>Completa el siguiente formulario de contacto:</h1>
+            <form action="#">
+                <div class="form-body">
+                    <label for="name">Nombre*:</label>
+                    <input class="field" type="text" id="name" name="name" placeholder="Escribe aquí tu nombre" required>
+                    <label for="surname">Apellidos*:</label>
+                    <input class="field" type="text" id="surname" name="surname" placeholder="Escribe aquí tus apellidos" required>
+                    <label for="tel">Teléfono*:</label>
+                    <input class="field" type="text" id="tel" name="tel" placeholder="Escribe aquí tu teléfono" required>
+                    <label for="mail">Email*:</label>
+                    <input class="field" type="email" id="mail" name="mail" placeholder="Escribe aquí tu email" required>
+                    <label for="comments">Comentarios:</label>
+                    <textarea class="field" id="comments" name="comments" placeholder="Escribe aquí tus comentarios"></textarea>
+                </div>
+                <div class="form-footer">
+                    <div class="footer-field">
+                        <input type="checkbox" required> <span class="smaller">Acepto la política de privacidad*</span>
+                        <input class="submit-btn" type="submit" value="ENVIAR">
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

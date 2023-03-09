@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --btn-c: #eca7a7;
+}
+
+body{
+    background: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    font-family: 'Alata', sans-serif;
+    background: lightblue;
+    padding: 10px;
+    border: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px white;
+}
+button:active{
+    box-shadow: inset 2px 2px 8px rgba(0,0,0,0.5), inset -2px -2px 8px white;
+}
+.variable-btn{
+    background: var(--btn-c);
+}
+
+/* START PAGE */
+h1{ 
+    font-family: 'Alata', sans-serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+p{
+    padding-bottom: 20px;
+}
+.start-wrapper{
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* GAME */
+.info{
+    font-size: 1.1em;
+    padding-bottom: 1vh;
+}
+
+.input-wrapper{
+    height: 22vh;
+    padding: 5vh;
+    text-align: center;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+#spymaster-form{
+    display: none;
+}
+
+input, select{
+    padding: 10px;
+    margin-right: 10px;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+input:focus, select:focus{
+    outline: 0;
+    box-shadow: 0 0 8px 5px var(--btn-c);
+}
+
+.hint-box{
+    font-size: 2em;
+    font-family: 'Alata', sans-serif;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 5vh;
+    height: 78vh;
+}
+
+@keyframes appear {
+    from { transform: translateY(-200px); opacity: 0; display: block; }
+    to { transform: translateY(0px); opacity: 1; display: block; }
+}
+
+.card{
+    display: block;
+    width: 18%;
+    height: 18%;
+    border-radius: 20px;
+    background: lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px white;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.1em;
+    user-select: none;
+    transition: all 0.2s;
+}
+.card:hover{
+    transform: rotate(5deg);
+}
+.hidden{
+    opacity: 0;
+}
+.card-anim{
+    animation: appear 1s ease;
+}
+
+.red-card{
+    background: lightcoral;
+    border: 5px solid red;
+}
+.blue-card{
+    background: lightskyblue;
+    border: 5px solid blue;
+}
+.gray-card{
+    border: 5px dashed gray;
+}
+.black-card{
+    background: gray;
+    border: 5px solid black;
+}
+
+.chosen{
+    border: 0;
+    font-size: 50px;
+    color: rgba(0,0,0,0.5);
+}
+.chosen-red{
+    background: lightcoral;
+}
+.chosen-blue{
+    background: lightskyblue;
+}
+.chosen-gray{
+    background: lightgray;
+}
+.chosen-black{
+    background: black;
+    color: white;
+}

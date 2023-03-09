@@ -1,0 +1,104 @@
+:root{
+    --hue: hsl(0,50%,75%);
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    overflow-y: hidden;
+    background-color: var(--hue);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 60px;
+    color: rgba(0,0,0,0.6);
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    width: 80%;
+    max-width: 800px;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    transition: 0.5s all;
+    backdrop-filter: blur(10px);
+    box-shadow: -5px -5px 8px rgba(255,255,255,0.5),
+        5px 5px 8px rgba(0,0,0,0.5);
+}
+
+.item, .item:active{
+    position: relative;
+    height: 30vh;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+a:hover{
+    box-shadow: -5px -5px 20px rgba(255,255,255,0.5),
+        5px 5px 20px rgba(0,0,0,0.5);
+    transform:scale(1.05);
+    font-size: 62px;
+}
+
+a:active{
+    box-shadow: inset -5px -5px 20px rgba(255,255,255,0.5),
+        inset 5px 5px 20px rgba(0,0,0,0.5);
+    transform:scale(1.05);
+}
+
+.container {
+    max-height: 30vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+  }
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+
+.floaty{
+    position: fixed;
+    width: 90%;
+    height: 35vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14vw;
+    font-weight: 700;
+     color: rgba(0,0,0,0.5)
+}
+
+.time{
+    bottom: -5vh;
+    opacity: 0;
+}
+
+@media (max-width: 780px){
+    .item{
+        
+        height: 25vh;
+        border-radius: 20px;
+    }
+
+    a{
+        font-size: 30px;
+    }
+
+    a:hover{
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cw: 0px;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+/*
+.v-align{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.card{
+    position: relative;
+    width: var(--cw);
+    max-width: 30%;
+    aspect-ratio: 5/7;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: box-shadow .2s;
+}
+
+.reverse-number{
+    transform-origin: 50% 50%;
+    transform: rotate(180deg);
+
+}
+
+.card:hover{
+    box-shadow: 0 0 5px red, 0 0 15px red, 0 0 25px red, 0 0 30px red;
+}
+
+@keyframes flip-out {
+    0%{ transform: scaleX(1); }
+    100%{ transform: scaleX(0); }
+}
+
+@keyframes flip-in {
+    0%{ transform: scaleX(0); }
+    100%{ transform: scaleX(1); }
+}
+
+.flipout-anim{
+    animation: flip-out .5s;
+}
+
+.flipin-anim{
+    animation: flip-in .5s;
+}
+
+.h{
+    background-image: url('../img/heart.png');
+    color: #ff0000;
+}
+
+.d{
+    background-image: url('../img/diamond.png');
+    color: #ff0000;
+}
+
+.c{
+    background-image: url('../img/club.png');
+    color: #000000;
+}
+
+.s{
+    background-image: url('../img/spade.png');
+    color: #000000;
+}
+
+.back{
+    font-size: 0;
+    background-image: url('../img/cardback.png');
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.front{
+    background-color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

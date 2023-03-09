@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: lightgray;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(211, 211, 211,0.5);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5), -2px -2px 8px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    backdrop-filter: blur(5px);
+}

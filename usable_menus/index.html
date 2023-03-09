@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Vujahday+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+    <p id="mobile-only">Web només disponible a la versió mòbil vertical</p>
+    <div class="header">
+        <h1>Restaurant</h1>
+    </div>
+    <main>
+        <div>
+            <div id="canvas-holder">
+                <div id="loading-model">0%</div>
+                <div class="featured-text">
+                    Plat del dia<br><span class="featured-title">Pasta</span>
+                </div>
+            </div>
+            <div class="price-drawer">
+                <span>9€</span>
+                <button class="addtocart">+ afegir a la comanda</button>
+            </div>
+        </div>
+        <div class="box" style="background-image: linear-gradient(to right, #009620, transparent), url('./assets/salad.jpg');">
+            Amanides
+        </div>
+        <div class="box" style="background-image: linear-gradient(to right, #a84c00, transparent), url('./assets/pizza.jpg');">
+            Pizzes
+        </div>
+        <div class="box" style="background-image: linear-gradient(to right, #beb200, transparent), url('./assets/pasta.jpg');">
+            Pasta
+        </div>
+        <div class="box" style="background-image: linear-gradient(to right, #9c0000, transparent), url('./assets/meat.jpg');">
+            Carn
+        </div>
+        <div class="box" style="background-image: linear-gradient(to right, #9001b4, transparent), url('./assets/desserts.jpg');">
+            Postres
+        </div>
+    </main>    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./build/three.min.js"></script>
+    <!-- <script type="module" src="https://citmalumnes.upc.es/~paugv2/usable_menus/js/3dHandler.js"></script> -->
+    <script type="module" src="./js/3dHandler.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

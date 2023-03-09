@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+/* CARDS */
+
+.card{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 5/7;
+    border: 1px solid black;
+    border-radius: 5%;
+    transition: box-shadow .2s;
+}
+
+.reverse-number{
+    transform-origin: 50% 50%;
+    transform: rotate(180deg);
+
+}
+
+.card:hover{
+    box-shadow: 0 0 5px red, 0 0 15px red, 0 0 25px red, 0 0 30px red;
+}
+
+@keyframes flip-out {
+    0%{ transform: scaleX(1); }
+    100%{ transform: scaleX(0); }
+}
+
+@keyframes flip-in {
+    0%{ transform: scaleX(0); }
+    100%{ transform: scaleX(1); }
+}
+
+.flipout-anim{
+    animation: flip-out .5s;
+}
+
+.flipin-anim{
+    animation: flip-in .5s;
+}
+
+.h{
+    background-image: url('../img/heart.png');
+    color: #ff0000;
+}
+
+.d{
+    background-image: url('../img/diamond.png');
+    color: #ff0000;
+}
+
+.c{
+    background-image: url('../img/club.png');
+    color: #000000;
+}
+
+.s{
+    background-image: url('../img/spade.png');
+    color: #000000;
+}
+
+.back{
+    font-size: 0;
+    background-image: url('../img/cardback.png');
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.front{
+    background-color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* TOP BAR */
+
+.top-bar{
+    width: 95%;
+    max-width: 1000px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.card-sized{
+    height: 100%;
+    aspect-ratio: 5/7;
+    border-radius: 5%;
+    position: relative;
+}
+#draw-btn{
+    background-image: url('../img/cardback.png');
+    background-size: cover;
+}
+#drawn-container{
+    border: 3px solid black;
+}
+.goal-pile{
+    border: 3px solid black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* BOARD */
+
+.board{
+    width: 95%;
+    max-width: 1000px;
+    height: 83vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 2vh;
+}
+.board-column{
+    min-height: 15vh;
+    height: fit-content;
+    width: calc(15vh*5/7);
+    background: rgba(0,0,0,0.2);
+    border-radius: 5%;
+    position: relative;
+    padding-bottom: 15vh;
+}
+
+/* @media (max-width: 720px) {
+    body{
+        display: none;
+    }
+} */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Trainer</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body onload="waitForStart()">
+    <div class="hi-score">High Score: <span id="hs">0</span></div>
+    <div class="wrapper">
+        <div class="title" onclick="startGame()">
+            <h1>Aim Trainer</h1>
+            <h2>Click 30 targets as fast and accurately as possible</h2>
+            <p>Click to start</p>
+        </div>
+        <div class="game" onmousedown="registerMissClick()">
+            <h2 id="info-text">30</h2>
+            <p id="info-sub"></p>
+        </div>
+        <div id="target">
+            <div id="t3" class="center" onmousedown="clickTarget(60)"></div>
+            <div id="t2" class="center" onmousedown="clickTarget(80)"></div>
+            <div id="t1" class="center" onmousedown="clickTarget(100)"></div>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

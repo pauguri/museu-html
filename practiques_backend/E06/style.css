@@ -1,0 +1,56 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: auto;
+    max-width: 800px;
+    width: 90vw;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    padding-left: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+li{
+    list-style: none;
+    padding: 10px
+}
+
+li div{
+    padding-bottom: 10px;
+}
+
+li:nth-child(even){
+    background: #d4d4d4;
+}
+
+.btn, button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+input[type="text"],input[type="email"],input[type="password"],textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    font-size: 20px;
+    font-weight: bold;
+}
+textarea{
+    margin-top: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    resize: vertical;
+}

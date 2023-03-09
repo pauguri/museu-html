@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #484347;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    display: flex;
+}
+
+.left-side{
+    width: 50%;
+    min-width: 400px;
+    height: 100vh;
+    overflow-y: auto;
+}
+.right-side{
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+#map{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+form{
+    border: 2px solid #dbdbdb;
+    position: relative;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+form::after{
+    content: 'JOURNEY PLANNER';
+    position: absolute;
+    font-size: 12px;
+    padding: 5px;
+    color: #dbdbdb;
+    top: 0;
+    left: 10px;
+    transform: translateY(-50%);
+    background: #484347;
+}
+
+.form-field{
+    background: #dbdbdb;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+input[type="number"]{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    width: 100px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 0;
+    background: #05c505;
+    width: 260px;
+    transition: all .2s;
+}
+
+button:disabled{
+    background: gray;
+    cursor: not-allowed;
+}
+
+button:hover{
+    box-shadow: 0 0 20px #05c505;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 0 0 20px #077507;
+    background: #077507;
+}
+
+.trip-container{
+    border: 2px solid #dbdbdb;
+    position: relative;
+    padding: 60px 0 30px 10%;
+    margin: 30px;
+}
+
+.trip-container::after{
+    content: 'YOUR JOURNEY';
+    position: absolute;
+    font-size: 12px;
+    padding: 5px;
+    color: #dbdbdb;
+    top: 0;
+    left: 10px;
+    transform: translateY(-50%);
+    background: #484347;
+}
+
+.trip-node-line{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0 20px 20px;
+    margin-left: 20px;
+    color: #dbdbdb;
+    border-left: 5px solid var(--line-color);
+}
+
+.trip-node-line div span:nth-child(1){
+    font-weight: bold;
+    font-size: 30px;
+}
+.trip-node-destination{
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #dbdbdb;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.trip-node-destination div{
+    margin: 0 10px;
+}
+.trip-node-destination div:nth-child(1){
+    font-weight: bold;
+    font-size: 25px;
+}
+.trip-node-destination div span{
+    font-weight: bold;
+    font-size: 13px;
+}
+.final-destination{
+    background-color: #dbdbdb;
+    color: #484347;
+}
+.L-icon, .S-icon, .X-icon{
+    position: absolute;
+    background: var(--line-color);
+    left: -12.5px;
+}
+.L-icon, .S-icon{
+    width: 20px;
+    height: 20px;
+    top: -10px;
+}
+.L-icon{
+    border-radius: 50%;
+}
+.X-icon{
+    width: 20px; 
+    height: 11.55px;
+    top: calc(-11.55px/2);
+}
+.X-icon:before,
+.X-icon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.X-icon:before {
+  bottom: 100%;
+  border-bottom: 5.77px solid var(--line-color);
+}
+
+.X-icon:after {
+  top: 100%;
+  width: 0;
+  border-top: 5.77px solid var(--line-color);
+}
+
+.trip-time{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+    color: #dbdbdb;
+    font-size: 30px;
+}
+
+@media (max-width: 700px) {
+    body{
+        display: block;
+    }
+    .left-side, .right-side{
+        width: 100%;
+        height: unset;
+    }
+    .trip-container{
+        height: 100%;
+    }
+    #map{
+        width: 80%;
+        height: auto;
+        object-fit: unset;
+    }
+}

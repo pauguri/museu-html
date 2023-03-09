@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteoGuesser</title>
+</head>
+<body onload="init()">
+
+    <div class="time-container">
+        <span class="date"></span> a les <span class="time"></span>
+    </div>
+    <div class="reading-container">
+        <span class="type"></span>
+        <span class="number"></span>
+        <span class="unit"></span>
+    </div>
+    <h2>On som?</h2>
+    <div class="choice-wrapper">
+        <div class="choice" onclick="checkAnswer(this)"><span class="town"></span><br><span class="comarca"></span></div>
+        <div class="choice" onclick="checkAnswer(this)"><span class="town"></span><br><span class="comarca"></span></div>
+        <div class="choice" onclick="checkAnswer(this)"><span class="town"></span><br><span class="comarca"></span></div>
+        <div class="choice" onclick="checkAnswer(this)"><span class="town"></span><br><span class="comarca"></span></div>
+    </div>
+    <div class="bottom-bar">
+        <div class="reload" onclick="reload()">
+            <ion-icon name="dice-outline"></ion-icon>
+            <span> Un altre</span>
+        </div>
+        <div class="score">Punts: <span class="score-num">0</span></div>
+        <div class="score hs">Rècord: <span class="score-num hs-num">0</span></div>
+    </div>
+    <div class="credits">Dades extretes del <a href="https://www.meteo.cat/wpweb/avis-legal/" target="_blank">METEOCAT</a></div>
+    
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

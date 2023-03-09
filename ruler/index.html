@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesurator</title>
+</head>
+<body onload="checkStorage()">
+    <div id="start-container" style="display:none">
+        <span>Measure the green segment and input the size below (you'll only have to do it once)</span><br>
+        <form action="javascript:void(0)" onsubmit="return setSize(this)">
+            <input type="number" id="whole" min="0" required>.<input type="number" id="decimal" min="0" max="99" placeholder="00">
+            <select id="unit" required>
+                <option value="false">cm</option>
+                <option value="true">in</option>
+            </select> <br>
+            <div id="reference-measure"></div><br>
+            <input type="submit" id="submit-btn" value="Set">
+        </form>
+    </div>
+    <div id="main-container" style="display:none">
+        <div id="bg-text">Tap anywhere to set first point</div>
+        <span id="recalibrate" >Innacurate ruler? <span onclick="recalibrate()">Recalibrate</span></span>
+    </div>
+
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

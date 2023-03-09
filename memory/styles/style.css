@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.score-bar{
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+}
+
+.small{
+    font-size: 25px;
+    margin: 25px 0 12px 0;
+}
+
+.big{
+    font-size: 50px;
+}
+
+.wrapper{
+    width: calc(100% - 100px);
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    margin: 1%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 20%;
+    height: 20vh;
+    
+}
+@keyframes flip-out {
+    0%{ transform: scaleX(1); }
+    100%{ transform: scaleX(0); }
+}
+
+@keyframes flip-in {
+    0%{ transform: scaleX(0); }
+    100%{ transform: scaleX(1); }
+}
+
+.flipout-anim{
+    animation: flip-out .5s;
+}
+
+.flipin-anim{
+    animation: flip-in .5s;
+}
+
+
+.i1{
+    background-image: url(../img/aweno.jpg);
+}
+.i2{
+    background-image: url(../img/EXITA.png);
+}
+.i3{
+    background-image: url(../img/KESO.jpg);
+}
+.i4{
+    background-image: url(../img/llorar.png);
+}
+.i5{
+    background-image: url(../img/plastelina.jpg);
+}
+.i6{
+    background-image: url(../img/preguntas.jpg);
+}
+.i7{
+    background-image: url(../img/tasbien.jpg);
+}
+.i8{
+    background-image: url(../img/trumpeta.jpg);
+}
+.back{
+
+    background-color: black;
+    background-image: none;
+
+}
+
+.front{
+    background-color: rgb(194, 194, 194);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:700px){
+    body{
+        flex-direction: column;
+    }
+
+    .score-bar{
+        width: 100%;
+        height: min-content;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .vertical-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 10vh;
+    }
+    
+    .small{
+        font-size: 25px;
+        margin: 0 12px 0 25px;
+    }
+    
+    .big{
+        font-size: 50px;
+    }
+
+    .wrapper{
+        width: 96%;
+        margin: 2vh 2% 2vh 2%;
+        height: 86vh;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glyph Guesser</title>
+</head>
+<body>
+    <div class="main-menu">
+        <button id="cmb" onclick="joinMaster()">clueMAsteR</button><br>
+        <button id="gb" onclick="joinGuesser()">GuesseR</button>
+    </div>
+    <div class="cluemaster-game" style="display: none">
+        <div class="glyph">A</div>
+        <p>descRibe tHis syMbol to youR GuesseR</p>
+        <p class="smaller">if tHey AnsWeR <span id="answer">A</span> you'Re coRRect</p>
+    </div>
+    <div class="guesser-game" style="display: none">
+        <p>Ask youR clueMAsteR to descRibe tHeiR syMbol</p>
+        <p class="smaller">click tHe crRRect syMbol</p>
+        <div class="glyphs-wrapper">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVGsito</title>
+    <style>
+        :root{
+            --bgc: rgb(255,255,255);
+            --mc: rgb(0,255,0);
+        }
+
+        body{
+            height: 3000px;
+            scroll-behavior: smooth;
+            background-color: var(--bgc);
+            color: var(--mc);
+        }
+        .ref{
+            display: none;
+        }
+        #frame{
+            stroke-width: 1%;
+            stroke: var(--mc);
+        }
+        .svg-wrapper{
+            width: 80%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            position: fixed;
+        }
+
+        .text{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 7vw;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="text" id="t1"><i class="fas fa-arrow-down"></i> SCROLL <i class="fas fa-arrow-down"></i></div>
+    <div class="text" id="t2" style="opacity: 0">Hell yeah. <i class="far fa-smile-beam"></i></div>
+    <div class="svg-wrapper">
+        <svg viewBox="0 0 16 9">
+            <path id="frame" d="M0 0 l0 9 l 16 0 l 0 -9 Z" stroke="rgb(0,255,0)" strole-width="1" fill="none" />
+        </svg>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

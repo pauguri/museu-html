@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codi Secret</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body onload="prepBoard()">
+        <div class="input-wrapper">
+            <!-- Spymaster -->
+            <div class="info"></div>
+            <button id="ready-btn" class="variable-btn" style="display:none" onclick="readyButtonPress(this)">Continuar</button>
+            <form action="javascript:void(0)" id="spymaster-form" onsubmit="submitSMF(this)">
+                <input type="text" id="smf-hint" placeholder="Escriu la pista (una paraula)" required>
+                <input type="number" id="smf-count" min="0" max="25" placeholder="#" required>
+                <button type="submit" class="variable-btn">OK</button>
+            </form>
+            <!-- Operative -->
+            <div class="hint-box"></div>
+            <button id="end-operative-btn" class="variable-btn" style="display:none" onclick="endOperativeTurn()">Acabar torn</button>
+        </div>
+    <main>
+        <div class="board"></div>
+    </main>
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

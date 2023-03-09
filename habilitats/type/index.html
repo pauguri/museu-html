@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body onload="waitForStart()">
+    <div class="hi-score">High Score: <span id="hs">0</span></div>
+    <div class="wrapper">
+        <div class="title" onclick="startGame()">
+            <h1>Typing Test</h1>
+            <h2>Type the following text as fast as you can</h2>
+            <p>Click to start</p>
+        </div>
+        <div class="game" onclick="restartGame()">
+            <h2 id="info-text">WPM: 0</h2>
+            <p id="info-sub"></p>
+            <div id="type-area"></div>
+            <input type="text" id="type-input" onfocusout="this.focus();">
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

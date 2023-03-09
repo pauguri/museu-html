@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Glyphs';
+    src: url(./assets/Glyphs.ttf) format('truetype'),
+    url(./assets/Glyphs.woff) format('woff');
+    font-weight: normal;
+}
+
+body {
+    background: rgb(2, 2, 10);
+}
+
+.main-menu{
+    margin-top: 45vh;
+    text-align: center;
+}
+.cluemaster-game,.guesser-game{
+    margin-top: 50px;
+    text-align: center;
+}
+
+button{
+    background: rgb(2, 2, 10);
+    padding: 10px;
+    width: 300px;
+    border: 0;
+    outline: 1px solid #5ba114;
+    color: #5ba114;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+    transition: all 0.2s;
+}
+button:hover,.glyph-btn:hover{
+    outline-color: red;
+    color: red;
+    cursor: pointer;
+    outline-width: 5px;
+}
+.glyph{
+    font-family: 'Glyphs';
+    font-size: 40vh;
+    color: #5ba114;
+}
+p{
+    color: #5ba114;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.smaller{
+    font-size: 25px;
+}
+#answer{
+    text-decoration: underline;
+}
+.glyphs-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+.glyph-btn{
+    font-family: 'Glyphs';
+    font-size: 5vw;
+    width: 10%;
+    padding: 10px;
+    color: #5ba114;
+    outline: 1px solid #5ba114;
+    transition: all 0.2s;
+}

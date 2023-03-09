@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background: black;
+    height: 100vh;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+canvas{
+    object-fit: contain;
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#input-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#time-input{
+    background: transparent;
+    color: red;
+    border: 0;
+    border-bottom: 2px solid red;
+    width: 100px;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#start{
+    font-size: 25px;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#start:active{
+    background: red;
+    color: white;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    fill: rgba(255,255,255,0.2);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#fullscreen-icon{
+    right: 25%;
+}
+#edit-icon{
+    left: 25%;
+}
+
+.hidden{
+    display: none;
+}

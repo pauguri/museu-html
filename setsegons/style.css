@@ -1,0 +1,164 @@
+/* MISC */
+
+*{
+    font-size: 16px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    background: rgb(215, 158, 233);
+    text-align: center;
+    padding: 10px;
+}
+header .home-button{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+h2.underlined{
+    border-bottom: 1px solid black;
+}
+
+.red{
+    color: darkred;
+}
+
+/* INDEX */
+
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+form select,form button,form input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#main-form a{
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+/* CREATE SHOW */
+
+h3{
+    user-select: none;
+}
+
+.contestants-drawer{
+    margin-bottom: 20px;
+}
+
+/* IN */
+
+h4{
+    margin: 0px 0px 20px 0px;
+    position: relative;
+}
+
+.concursant{
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.concursant:nth-child(odd){
+    background: rgb(212, 212, 212);
+}
+
+.lock-points{
+    position: absolute;
+    left: 20px;
+}
+
+.update-points{
+    padding: 10px 0px;
+    width: 50px;
+}
+
+.locked{
+    background: lightgreen !important;
+}
+.locked .update-points{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* TOTAL */
+
+#total-container{
+    display: flex;
+    justify-content: center;
+    background: black;
+    margin-bottom: 30px;
+}
+
+.total{
+    width: 25%;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 10px;
+    color: white;
+}
+.total.eliminated{
+    background: red;
+}
+.total-points{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#total-container.small{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+.total.small{
+    margin: 0px;
+}
+.total-points.small{
+    font-size: 1.5em;
+}
+.spacer{
+    height: 100px;
+}
+
+/* OUT */
+
+#table-container{
+    width: 100vw;
+    overflow-x: auto;
+}
+table{
+    width: 750px;
+    text-align: center;
+    margin: auto;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px 10px;
+}
+
+.confirmed{
+    background: lightgreen;
+}

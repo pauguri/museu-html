@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magritte Generator</title>
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+</head>
+<body onload="generate()">
+    <div id="sidebar-container">
+        <div id="sidebar">
+            <div id="reload-btn" class="btn" onclick="generate()"><i class="fas fa-redo-alt"></i></div>
+            <div id="save-btn" class="btn" onclick="saveCanvas()"><i class="fas fa-save"></i></div>
+            <div id="sidebar-separator"></div>
+        </div>
+    </div>
+    <div id="canvas">
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <div class="cell" data-locked="0">
+            <div class="pin-btn btn" onclick="toggleLock(this.parentNode,this)"><i class="fas fa-lock-open"></i></div>
+            <div class="cell-text"></div>
+        </div>
+        <select id="lang" oninput="changeLang(event)">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+        </select>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

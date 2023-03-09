@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10K Trip Calculator</title>
+    <script src="https://kit.fontawesome.com/16854bd097.js" crossorigin="anonymous"></script>
+</head>
+<body onload="loadData()">
+    <div class="left-side">
+        <form action="javascript:void(0)" onsubmit="return getTrip()">
+            <div class="form-field">
+                <label for="fromn">from floor nº</label>
+                <input type="number" id="fromn" placeholder="00000" min="0" max="10000" required>
+            </div>
+            <div class="form-field">
+                <label for="ton">to floor nº</label>
+                <input type="number" id="ton" placeholder="00000" min="0" max="10000" required>
+            </div>
+            <button type="submit" disabled>Loading</button>
+        </form>
+        <div class="trip-container" style="display:none">
+            <div class="trip-time">0:00 min</div>
+        </div>
+    </div>
+    <div class="right-side">
+        <img id="map" src="./img/mapa.jpg" alt="mapa" width="799" height="1600">
+    </div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

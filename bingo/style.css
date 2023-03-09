@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fs: 0px;
+    --ball-color: hsl(0,100%,50%);
+}
+
+body{
+    background: rgb(32, 70, 32);
+    font-family: 'Roboto Slab', serif;
+}
+
+/* MENU */
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: gold;
+}
+
+#menu-container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 20px;
+    padding-top: 65px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    border-radius: 30px;
+    background: rgb(165, 79, 79);
+    box-shadow: 10px 10px 0px rgb(105, 0, 0);
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    box-shadow: 7px 7px 0px rgb(105, 0, 0);
+    transform: translate(3px, 3px);
+}
+
+.btn:active{
+    box-shadow: 0 0 0 rgb(105, 0, 0);
+    transform: translate(10px, 10px);
+}
+
+/* BINGO CARD */
+
+#card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90vh;
+    max-height: 90vw;
+    width: 90vw;
+    max-width: 90vh;
+    border-radius: 30px;
+    background: darkgray;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#card div{
+    position: relative;
+    width: 20%;
+    height: 16.67%;
+    text-align: center;
+    font-weight: bold;
+    padding: 2%;
+    font-size: var(--fs);
+    border: 1px solid black;
+    user-select: none;
+}
+
+#card #top-bar{
+    width: 100%;
+    height: 16.67%;
+    display: flex;
+    background: black;
+    color: darkgray;
+}
+
+#card #top-bar div{
+    height: 100%;
+}
+
+#card div.free-space{
+    font-size: calc(var(--fs)/2);
+    background: lightcoral;
+}
+
+.covered{
+    background: lightcoral;
+    transition: background .5s;
+}
+
+@keyframes grow {
+    from { width: 0%; transform: translateY(-50%) rotate(0deg)}
+    to { width: 100% }
+}
+
+.covered::after{
+    content: '';
+    position: absolute;
+    transform: translateY(-50%) rotate(45deg);
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: red;
+    animation: grow 0.5s;
+}
+
+/* BINGO DRUM */
+
+#ball-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+button{
+    height: fit-content;
+    padding: 25px 30px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inherit;
+    color: gold;
+    border: 0;
+    border-radius: 30px;
+    background: rgb(165, 79, 79);
+    box-shadow: 10px 10px 0px rgb(105, 0, 0);
+    transition: all 0.2s;
+}
+
+button:hover{
+    box-shadow: 7px 7px 0px rgb(105, 0, 0);
+    transform: translate(3px, 3px);
+}
+
+button:active{
+    box-shadow: 0 0 0 rgb(105, 0, 0);
+    transform: translate(10px, 10px);
+}
+
+#ball {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    background: white;
+    border: 10px solid var(--ball-color);
+    outline: 2px solid white;
+    margin: 30px;
+}
+
+#ball::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 30px solid var(--ball-color);
+}
+
+@keyframes deal-ball {
+    from { opacity: 0; transform: translateX(-200%) }
+    to { opacity: 1; transform: translateX(0) }
+}
+
+.dealed {
+    animation: deal-ball 1s ease;
+}
+
+#dealed-container {
+    min-height: 50px;
+    margin: 2%;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mini-ball{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 10px solid var(--border);
+}
+
+@media (max-width: 500px){
+    #ball-container {
+        display: block;
+        text-align: center;
+    }
+    #ball {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    button{
+        margin: 0;
+    }
+}

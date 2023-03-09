@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: #0a0a2b;
+    color: white;
+    user-select: none;
+}
+
+.date{
+    font-weight: 700;
+    font-size: 8vw;
+    margin-right: 2vw;
+}
+
+.time-container{
+    margin: 30px 0 30px 0;
+    font-size: 5vw;
+    font-weight: 100;
+    text-align: center;
+}
+
+.time{
+    margin-left: 2vw;
+    font-size: 8vw;
+    font-weight: 700;
+}
+
+.reading-container{
+    font-size: 30px;
+    text-align: center;
+}
+
+.number, .unit{
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffde4d;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+}
+
+.choice-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choice, .reload{
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: blue;
+    transition: all .2s;
+    cursor: pointer;
+}
+.town{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.comarca{
+    font-weight: 100;
+}
+
+.choice:hover, .reload:hover{
+    box-shadow: 5px 5px 0 #00009b;
+    transform: translate(-5px,-5px);
+}
+
+.correct{
+    background: green;
+}
+.wrong{
+    background: #973131;
+}
+.correct:hover{
+    box-shadow: 5px 5px 0 #173f0e;
+}
+.wrong:hover{
+    box-shadow: 5px 5px 0 #4e2020;
+}
+
+.bottom-bar{
+    position: relative;
+}
+
+.reload{
+    width: 150px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7a660d;
+    margin: auto;
+}
+.reload:hover{
+    box-shadow: 5px 5px 0 #46431d;
+}
+.reload ion-icon{
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+.score{
+    position: absolute;
+    left: calc(5% - 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1em;
+}
+.hs{
+    left: unset;
+    right: calc(5% - 10px);
+}
+.score-num{
+    font-weight: 900;
+    color: #27c227;
+}
+.hs-num{
+    color: white;
+}
+
+.credits{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    margin-top: 30px;
+}
+.credits a{
+    color: rgba(255,255,255,0.5);
+}
+
+@media (max-width: 500px){
+    .choice-wrapper{
+        display: block;
+    }
+
+    .choice{
+        width: 95%;
+        margin: 20px auto 20px auto;
+    }
+
+    .reload{
+        width: 150px;
+    }
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.cw{
+    position: relative;
+
+}
+
+.title{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    z-index: 10;
+    padding: 20px;
+    transition: opacity 1s;
+    font-size: 30px;
+    font-family: 'Space Grotesk', Helvetica, Verdana, Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0,0,0);
+}
+canvas:hover + .title{
+    opacity: 1;
+}
+
+.full{
+    width: 100%;
+}
+
+/* .half{
+    width: 50%;
+} */
+
+.third-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+}
+.third{
+    width: 33%;
+}
+.noclick{
+    cursor: not-allowed;
+}
+.interactive:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .third-wrapper{
+        flex-wrap: wrap;
+    }
+    .third{
+        width: 100%;
+    }
+}

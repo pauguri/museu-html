@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ps: 200px;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    margin-top: 3%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pieces{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    border: 5px dashed black;
+    min-height: calc(50px + var(--ps));
+    padding: 20px;
+}
+
+.dragable{
+    width: var(--ps);
+    height: var(--ps);
+    background-size: 400px 400px;
+}
+
+.dropable{
+    width: var(--ps);
+    height: var(--ps);
+    background-color: gray;
+}
