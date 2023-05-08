@@ -15,7 +15,7 @@ scene.add( light );
 const loader = new GLTFLoader();
 var model;
 loader.load(
-    'https://citmalumnes.upc.es/~paugv2/usable_menus/pizza/assets/PIZZA_5K.gltf',
+    '/usable_menus/pizza/assets/PIZZA_5K.gltf',
     (object) => {
         model = object.scene;
         scene.add(object.scene);

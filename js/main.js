@@ -4,7 +4,7 @@ const welcome = document.querySelector('.welcome');
 const time = document.querySelector('.time');
 
 // JSON PARSE
-fetch('https://citmalumnes.upc.es/~paugv2/js/items.json')
+fetch('/js/items.json')
 //fetch('/js/items.json')
     .then(response => response.json())
     .then(data => {

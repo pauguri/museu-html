@@ -18,7 +18,7 @@ scene.add( plight );
 const loader = new FBXLoader();
 var model;
 loader.load(
-    'https://citmalumnes.upc.es/~paugv2/usable_menus/assets/PASTA2.fbx',
+    '/usable_menus/assets/PASTA2.fbx',
     (object) => {
         model = object;
         scene.add(object);
