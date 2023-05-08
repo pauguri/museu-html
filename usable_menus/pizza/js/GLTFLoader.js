@@ -62,7 +62,7 @@ import {
 	Vector3,
 	VectorKeyframeTrack,
 	sRGBEncoding
-} from '/usable_menus/pizza/build/three.module.js';
+} from '../build/three.module.js';
 
 class GLTFLoader extends Loader {
 

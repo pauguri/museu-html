@@ -18,7 +18,7 @@ scene.add( plight );
 const loader = new FBXLoader();
 var model;
 loader.load(
-    '/usable_menus/assets/PASTA2.fbx',
+    '../assets/PASTA2.fbx',
     (object) => {
         model = object;
         scene.add(object);
