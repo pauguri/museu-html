@@ -15,7 +15,7 @@ scene.add( light );
 const loader = new GLTFLoader();
 var model;
 loader.load(
-    '../assets/PIZZA_5K.gltf',
+    './assets/PIZZA_5K.gltf',
     (object) => {
         model = object.scene;
         scene.add(object.scene);
