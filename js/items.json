@@ -340,17 +340,6 @@
             "btnText": "VES-HI",
             "desktopReady": false,
             "mobileReady": true
-        },
-        {
-            "icon": "code-slash-outline",
-            "title": "Pràctiques",
-            "strong": false,
-            "desc": "Col·lecció de les pràctiques realitzades durant l'assignatura de Programació Web de la universitat.",
-            "href": "./practiques/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": true,
-            "mobileReady": false
         }
     ]
 }
