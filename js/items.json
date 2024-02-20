@@ -353,7 +353,7 @@
             "mobileReady": true
         },
         {
-            "icon": "restaurant",
+            "icon": "restaurant-outline",
             "title": "Usable Menus",
             "strong": false,
             "desc": "Maqueta de menú online amb un model 3D. No té cap mena d'interacció però visualment és maca. Era una pràctica d'empresa.",
