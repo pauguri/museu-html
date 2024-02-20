@@ -45,6 +45,72 @@
             "mobileReady": true
         },
         {
+            "icon": "hourglass",
+            "title": "Rellotge de Sorra",
+            "strong": true,
+            "desc": "Un simple rellotge de sorra que fa servir el giroscopi del teu dispositiu per activar-se, com a la vida real!",
+            "href": "./hourglass/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": false,
+            "mobileReady": true
+        },
+        {
+            "icon": "ribbon",
+            "title": "Processing",
+            "strong": true,
+            "desc": "Portfoli d'animacions de processing. Algunes animacions són interactives així que remena tot el que vegis.",
+            "href": "./processing/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": true,
+            "mobileReady": false
+        },
+        {
+            "icon": "hand-left",
+            "title": "Chwazi",
+            "strong": true,
+            "desc": "Tothom posa el dit a la pantalla i Chwazi en tria un (o els que vulguis) aleatoriament. Inspirat en la app del mateix nom.",
+            "href": "./chwazi/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": false,
+            "mobileReady": true
+        },
+        {
+            "icon": "analytics",
+            "title": "Conjectura 3n+1",
+            "strong": true,
+            "desc": "Visualitzador de la Conjectura de Collatz (o Conjectura 3n+1), un dels problemes matemàtics no solucionats més famós del món.",
+            "href": "./collatz/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": true,
+            "mobileReady": false
+        },
+        {
+            "icon": "trophy",
+            "title": "Champ Champ",
+            "strong": true,
+            "desc": "Buscador estilitzat de campions de League of Legends fet amb React. Amb més perafernàlia que utilitat.",
+            "href": "./champ_champ/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": true,
+            "mobileReady": true
+        },
+        {
+            "icon": "train",
+            "title": "Rodalies",
+            "strong": true,
+            "desc": "Generador de cartells d'estació de Rodalies. Pots triar a quina estació et trobes i en quina direcció ve el tren. El temps restant perquè arribi el tren no està programat (és sempre 3), no et facis il·lusions.",
+            "href": "./rodalies/",
+            "target": "_blank",
+            "btnText": "VES-HI",
+            "desktopReady": true,
+            "mobileReady": true
+        },
+        {
             "icon": "image-outline",
             "title": "La Màquina Magritte",
             "strong": false,
@@ -78,17 +144,6 @@
             "mobileReady": true
         },
         {
-            "icon": "hourglass",
-            "title": "Rellotge de Sorra",
-            "strong": true,
-            "desc": "Un simple rellotge de sorra que fa servir el giroscopi del teu dispositiu per activar-se, com a la vida real!",
-            "href": "./hourglass/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": false,
-            "mobileReady": true
-        },
-        {
             "icon": "flag-outline",
             "title": "Buscamines",
             "strong": false,
@@ -111,17 +166,6 @@
             "mobileReady": false
         },
         {
-            "icon": "ribbon",
-            "title": "Processing",
-            "strong": true,
-            "desc": "Portfoli d'animacions de processing. Algunes animacions són interactives així que remena tot el que vegis.",
-            "href": "./processing/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": true,
-            "mobileReady": false
-        },
-        {
             "icon": "partly-sunny-outline",
             "title": "MeteoGuesser",
             "strong": false,
@@ -131,28 +175,6 @@
             "btnText": "VES-HI",
             "desktopReady": true,
             "mobileReady": true
-        },
-        {
-            "icon": "hand-left",
-            "title": "Chwazi",
-            "strong": true,
-            "desc": "Tothom posa el dit a la pantalla i Chwazi en tria un (o els que vulguis) aleatoriament. Inspirat en la app del mateix nom.",
-            "href": "./chwazi/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": false,
-            "mobileReady": true
-        },
-        {
-            "icon": "analytics",
-            "title": "Conjectura 3n+1",
-            "strong": true,
-            "desc": "Visualitzador de la Conjectura de Collatz (o Conjectura 3n+1), un dels problemes matemàtics no solucionats més famós del món.",
-            "href": "./collatz/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": true,
-            "mobileReady": false
         },
         {
             "icon": "people-outline",
@@ -254,17 +276,6 @@
             "mobileReady": true
         },
         {
-            "icon": "train",
-            "title": "Rodalies",
-            "strong": true,
-            "desc": "Generador de cartells d'estació de Rodalies. Pots triar a quina estació et trobes i en quina direcció ve el tren. El temps restant perquè arribi el tren no està programat (és sempre 3), no et facis il·lusions.",
-            "href": "./rodalies/",
-            "target": "_blank",
-            "btnText": "VES-HI",
-            "desktopReady": true,
-            "mobileReady": true
-        },
-        {
             "icon": "grid-outline",
             "title": "Memory",
             "strong": false,
@@ -344,7 +355,7 @@
         {
             "icon": "restaurant",
             "title": "Usable Menus",
-            "strong": true,
+            "strong": false,
             "desc": "Maqueta de menú online amb un model 3D. No té cap mena d'interacció però visualment és maca. Era una pràctica d'empresa.",
             "href": "./usable_menus/",
             "target": "_blank",
