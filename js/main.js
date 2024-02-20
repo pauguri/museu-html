@@ -24,6 +24,9 @@ function createItem(item) {
     masterDiv.appendChild(title);
 
     let titleSpan = document.createElement('span');
+    if (!(item.desktopReady && !isMobileBrowser) && !(item.mobileReady && isMobileBrowser)) {
+        titleSpan.classList.add('disabled');
+    }
     title.appendChild(titleSpan);
 
     let titleIcon = document.createElement('ion-icon');

@@ -34,6 +34,10 @@ body {
     justify-content: space-between;
 }
 
+.title span.disabled {
+    opacity: 50%;
+}
+
 .title ion-icon {
     vertical-align: middle;
 }
@@ -152,5 +156,9 @@ a.disabled {
 
     .item {
         width: calc(90% - 20px);
+    }
+
+    .title {
+        font-size: 20px;
     }
 }
