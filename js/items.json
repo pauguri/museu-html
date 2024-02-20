@@ -298,6 +298,17 @@
             "mobileReady": true
         },
         {
+            "icon": "bug-outline",
+            "title": "N̶̮̲̰̳͇̘̈́Ó̵͉̜̺̆",
+            "strong": false,
+            "desc": "Quan la més alta de les tres amigues que indiquen el moment del dia miri cap al nord, prem-la.",
+            "href": "",
+            "target": "",
+            "btnText": "",
+            "desktopReady": false,
+            "mobileReady": false
+        },
+        {
             "icon": "ellipsis-vertical-outline",
             "title": "Scroll",
             "strong": false,

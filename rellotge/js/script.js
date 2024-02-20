@@ -13,16 +13,16 @@ setInterval(() => {
     var hr = time.getHours();
     var min = time.getMinutes();
     var sec = time.getSeconds();
-    
-    console.log(`${hr}:${min}:${sec}`);
 
-    hh.style.transform = `rotateZ(${hr*30+min/2}deg)`;
-    mh.style.transform = `rotateZ(${min*6+sec*0.1}deg)`;
-    sh.style.transform = `rotateZ(${sec*6}deg)`;
+    //console.log(`${hr}:${min}:${sec}`);
+
+    hh.style.transform = `rotateZ(${hr * 30 + min / 2}deg)`;
+    mh.style.transform = `rotateZ(${min * 6 + sec * 0.1}deg)`;
+    sh.style.transform = `rotateZ(${sec * 6}deg)`;
 
     root.style.setProperty('--bg-c', bgc.value);
     root.style.setProperty('--h1-c', h1c.value);
-    root.style.setProperty('--h2-c', h2c.value);s
+    root.style.setProperty('--h2-c', h2c.value); s
 
 });
 
